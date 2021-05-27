@@ -1,0 +1,18 @@
+2020-04-05 22:43:48,068 INFO [dump-all-ok] febs-gateway.yaml+DEFAULT_GROUP, 1578971134000, length=2973, md5=af3f9384f1f960e3a28f7a6770539aaa
+
+2020-04-05 22:43:48,069 INFO [dump-all-ok] febs-monitor-admin.yaml+DEFAULT_GROUP, 1568857189000, length=173, md5=2347087e64301f1d5e0e9a9410007def
+
+2020-04-05 22:43:48,070 INFO [dump-all-ok] febs-auth-dev.yaml+DEFAULT_GROUP, 1576118452000, length=2187, md5=d8d3bd648700e941dee86f0e3981604c
+
+2020-04-05 22:43:48,071 INFO [dump-all-ok] febs-auth-test.yaml+DEFAULT_GROUP, 1576118463000, length=2185, md5=3b8d1c75d66045d85bc81ee9062f50f5
+
+2020-04-05 22:43:48,072 INFO [dump-all-ok] febs-auth-prod.yaml+DEFAULT_GROUP, 1576118474000, length=2207, md5=a71111a90dee8362984d348a111ce477
+
+2020-04-05 22:43:48,073 INFO [dump-all-ok] febs-server-system-dev.yaml+DEFAULT_GROUP, 1576118488000, length=1880, md5=b0000ccc64019bce0b9da6325d9277f0
+
+2020-04-05 22:43:48,073 INFO [dump-all-ok] febs-server-system-prod.yaml+DEFAULT_GROUP, 1576118498000, length=1880, md5=b0000ccc64019bce0b9da6325d9277f0
+
+2020-04-05 22:43:48,074 INFO [dump-all-ok] febs-server-system-test.yaml+DEFAULT_GROUP, 1576118510000, length=1880, md5=b0000ccc64019bce0b9da6325d9277f0
+
+2020-04-05 22:43:48,075 INFO [dump-all-ok] febs-server-test.yaml+DEFAULT_GROUP, 1576118519000, length=1278, md5=30591e03f60719253dbf8b373c110334
+

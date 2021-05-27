@@ -1,0 +1,78 @@
+2021-04-27 15:49:00,972 INFO initializing Raft sub-system
+
+2021-04-27 15:49:00,973 INFO raft notifier started
+
+2021-04-27 15:49:00,973 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2021-04-27 15:49:00,975 INFO cache loaded, datum count: 0, current term: 0
+
+2021-04-27 15:49:00,975 INFO finish to load data from disk, cost: 3 ms.
+
+2021-04-27 15:49:00,981 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-04-27 15:49:00,883 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-04-27 15:49:00,987 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-04-27 15:49:01,038 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-04-27 15:49:13,474 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-04-27 15:49:23,480 WARN refresh server list failed, ignore it.
+
+2021-04-27 15:49:23,582 INFO initializing Raft sub-system
+
+2021-04-27 15:49:23,582 INFO raft notifier started
+
+2021-04-27 15:49:23,583 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2021-04-27 15:49:23,584 INFO cache loaded, datum count: 0, current term: 0
+
+2021-04-27 15:49:23,584 INFO finish to load data from disk, cost: 2 ms.
+
+2021-04-27 15:49:23,586 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-04-27 15:49:23,628 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-04-27 15:49:28,478 WARN refresh server list failed, ignore it.
+
+2021-04-27 15:49:33,478 WARN refresh server list failed, ignore it.
+
+2021-04-27 15:49:38,478 WARN refresh server list failed, ignore it.
+
+2021-04-27 15:49:43,478 WARN refresh server list failed, ignore it.
+
+2021-04-27 15:49:48,476 WARN refresh server list failed, ignore it.
+
+2021-04-27 15:49:52,336 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-04-27 15:49:53,476 WARN refresh server list failed, ignore it.
+
+2021-04-27 15:49:58,430 INFO initializing Raft sub-system
+
+2021-04-27 15:49:58,430 INFO raft notifier started
+
+2021-04-27 15:49:58,430 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2021-04-27 15:49:58,432 INFO cache loaded, datum count: 0, current term: 0
+
+2021-04-27 15:49:58,432 INFO finish to load data from disk, cost: 2 ms.
+
+2021-04-27 15:49:58,433 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-04-27 15:49:58,362 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-04-27 15:49:58,438 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-04-27 15:49:58,474 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-04-27 15:49:59,556 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-04-27 15:50:03,360 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-27 15:50:03,360 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-04-27 15:50:03,360 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-27 15:50:18,363 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+

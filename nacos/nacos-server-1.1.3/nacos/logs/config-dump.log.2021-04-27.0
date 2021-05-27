@@ -1,0 +1,12 @@
+2021-04-27 15:50:00,311 INFO [dump-all-ok] gulimall-coupon+dev, 1607350293000, length=26, md5=0efd5c73f05e63dbfd11ab1ddc2b0bea
+
+2021-04-27 15:50:00,587 INFO [dump-all-ok] gulimall-datasource.properties+dev, 1607349882000, length=15, md5=7b3a921cd8b8ffbb375f344a904cb905
+
+2021-04-27 15:50:00,588 INFO [dump-all-ok] gulimall-datasource.yml+dev, 1613299458000, length=16, md5=47f05472061a9aabb86f1b3e1dd36596
+
+2021-04-27 15:50:00,588 INFO [dump-all-ok] gulimall-coupon+test, 1607350279000, length=27, md5=2b7aa48d0c7282c4e4cf7595e5be2576
+
+2021-04-27 15:50:00,590 INFO [dump-all-ok] gulimall-gateway.yml+dev, 1613298139000, length=1169, md5=74939da4cffe704e1f0d2bc7d4f7f415
+
+2021-04-27 15:50:00,591 INFO [dump-all-ok] gulimall-coupon.properties+pord, 1613298559000, length=27, md5=b1db49498a03acfed821518be0649231
+

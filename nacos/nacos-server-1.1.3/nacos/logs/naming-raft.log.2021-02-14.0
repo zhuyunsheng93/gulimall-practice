@@ -1,0 +1,118 @@
+2021-02-14 15:40:59,005 INFO initializing Raft sub-system
+
+2021-02-14 15:40:58,908 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 15:40:59,016 INFO finish loading all datums, size: 0 cost 10 ms.
+
+2021-02-14 15:40:59,018 INFO cache loaded, datum count: 0, current term: 0
+
+2021-02-14 15:40:59,018 INFO finish to load data from disk, cost: 12 ms.
+
+2021-02-14 15:40:59,021 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-02-14 15:40:59,024 INFO raft notifier started
+
+2021-02-14 15:40:59,029 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 15:40:59,090 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-02-14 15:41:14,208 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-02-14 15:43:03,564 INFO initializing Raft sub-system
+
+2021-02-14 15:43:03,565 INFO raft notifier started
+
+2021-02-14 15:43:03,565 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2021-02-14 15:43:03,567 INFO cache loaded, datum count: 0, current term: 0
+
+2021-02-14 15:43:03,567 INFO finish to load data from disk, cost: 3 ms.
+
+2021-02-14 15:43:03,568 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-02-14 15:43:03,498 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 15:43:03,574 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 15:43:03,613 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-02-14 15:43:09,676 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-02-14 15:43:13,495 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 15:43:13,495 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 15:43:13,495 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 15:43:38,500 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 17:47:10,940 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-gateway
+
+2021-02-14 17:47:10,941 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-gateway
+
+2021-02-14 17:54:59,412 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-coupon
+
+2021-02-14 18:05:45,119 INFO initializing Raft sub-system
+
+2021-02-14 18:05:45,120 INFO raft notifier started
+
+2021-02-14 18:05:45,120 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2021-02-14 18:05:45,121 INFO cache loaded, datum count: 0, current term: 0
+
+2021-02-14 18:05:45,122 INFO finish to load data from disk, cost: 3 ms.
+
+2021-02-14 18:05:45,123 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-02-14 18:05:45,054 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 18:05:45,129 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 18:05:45,167 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-02-14 18:05:46,212 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-02-14 18:05:48,274 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-gateway
+
+2021-02-14 18:05:50,051 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 18:05:50,051 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 18:05:50,052 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 18:06:05,054 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 18:13:59,188 INFO initializing Raft sub-system
+
+2021-02-14 18:13:59,189 INFO raft notifier started
+
+2021-02-14 18:13:59,189 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2021-02-14 18:13:59,191 INFO cache loaded, datum count: 0, current term: 0
+
+2021-02-14 18:13:59,191 INFO finish to load data from disk, cost: 2 ms.
+
+2021-02-14 18:13:59,193 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-02-14 18:13:59,120 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 18:13:59,199 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 18:13:59,235 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-02-14 18:14:00,260 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-02-14 18:14:04,117 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 18:14:04,117 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-02-14 18:14:04,117 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 18:14:06,248 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-gateway
+
+2021-02-14 18:14:19,120 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.113.107","key":"192.168.113.107:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-02-14 18:18:42,579 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-coupon
+
+2021-02-14 18:20:13,338 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@gulimall-product
+

@@ -1,0 +1,37 @@
+2021-02-14 15:41:07,124 ERROR [master-db] master db not found.
+
+2021-02-14 15:41:14,152 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-02-14 15:41:14,917 WARN useAddressServer:true
+
+2021-02-14 15:41:14,988 WARN isQuickStart:false
+
+2021-02-14 15:41:15,084 ERROR Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+
+2021-02-14 15:41:38,169 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-02-14 15:41:38,233 ERROR [master-db] master db not found.
+
+2021-02-14 15:42:02,181 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-02-14 15:42:02,225 ERROR [master-db] master db not found.
+
+2021-02-14 15:43:09,587 WARN [master-db] jdbc:mysql://192.168.56.10:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2021-02-14 15:43:10,311 WARN useAddressServer:true
+
+2021-02-14 15:43:10,388 WARN isQuickStart:false
+
+2021-02-14 18:05:46,154 WARN [master-db] jdbc:mysql://192.168.56.10:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2021-02-14 18:05:46,867 WARN useAddressServer:true
+
+2021-02-14 18:05:46,944 WARN isQuickStart:false
+
+2021-02-14 18:14:00,201 WARN [master-db] jdbc:mysql://192.168.56.10:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&serverTimezone=UTC
+
+2021-02-14 18:14:00,905 WARN useAddressServer:true
+
+2021-02-14 18:14:00,982 WARN isQuickStart:false
+

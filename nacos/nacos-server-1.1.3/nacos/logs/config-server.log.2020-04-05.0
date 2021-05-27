@@ -1,0 +1,862 @@
+2020-04-05 21:41:15,753 INFO notifyConnectTimeout:200
+
+2020-04-05 21:41:15,753 INFO notifySocketTimeout:8000
+
+2020-04-05 21:41:15,753 INFO isHealthCheck:true
+
+2020-04-05 21:41:15,753 INFO maxHealthCheckFailCount:12
+
+2020-04-05 21:41:15,753 INFO maxContent:10485760
+
+2020-04-05 21:41:17,844 INFO ServerListService address-server port:8848
+
+2020-04-05 21:41:17,844 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 21:41:17,845 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 21:41:17,915 WARN DumpService start
+
+2020-04-05 21:41:17,918 INFO start clear all config-info.
+
+2020-04-05 21:41:17,927 WARN clear all config-info failed.
+
+2020-04-05 21:41:17,927 WARN clear all config-info-tenant failed.
+
+2020-04-05 21:41:17,989 INFO start clear all config-info-beta.
+
+2020-04-05 21:41:17,990 WARN clear all config-info-beta failed.
+
+2020-04-05 21:41:17,990 WARN clear all config-info-beta-tenant failed.
+
+2020-04-05 21:41:17,999 INFO start clear all config-info-tag.
+
+2020-04-05 21:41:18,000 WARN clear all config-info-tag failed.
+
+2020-04-05 21:41:18,000 WARN clear all config-info-tag-tenant failed.
+
+2020-04-05 22:15:35,035 INFO notifyConnectTimeout:200
+
+2020-04-05 22:15:35,035 INFO notifySocketTimeout:8000
+
+2020-04-05 22:15:35,035 INFO isHealthCheck:true
+
+2020-04-05 22:15:35,035 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:15:35,035 INFO maxContent:10485760
+
+2020-04-05 22:15:35,036 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:15:44,059 INFO ServerListService address-server port:8848
+
+2020-04-05 22:15:44,059 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:15:44,059 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:15:44,141 WARN DumpService start
+
+2020-04-05 22:15:44,144 INFO start clear all config-info.
+
+2020-04-05 22:15:44,149 WARN clear all config-info failed.
+
+2020-04-05 22:15:44,149 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:16:45,119 ERROR unhealthIp:169.254.124.71, unhealthCount:13
+
+2020-04-05 22:16:50,119 ERROR unhealthIp:169.254.124.71, unhealthCount:14
+
+2020-04-05 22:16:55,120 ERROR unhealthIp:169.254.124.71, unhealthCount:15
+
+2020-04-05 22:17:00,125 ERROR unhealthIp:169.254.124.71, unhealthCount:16
+
+2020-04-05 22:17:05,124 ERROR unhealthIp:169.254.124.71, unhealthCount:17
+
+2020-04-05 22:17:10,127 ERROR unhealthIp:169.254.124.71, unhealthCount:18
+
+2020-04-05 22:17:15,126 ERROR unhealthIp:169.254.124.71, unhealthCount:19
+
+2020-04-05 22:17:20,126 ERROR unhealthIp:169.254.124.71, unhealthCount:20
+
+2020-04-05 22:17:25,127 ERROR unhealthIp:169.254.124.71, unhealthCount:21
+
+2020-04-05 22:17:30,128 ERROR unhealthIp:169.254.124.71, unhealthCount:22
+
+2020-04-05 22:17:35,128 ERROR unhealthIp:169.254.124.71, unhealthCount:23
+
+2020-04-05 22:17:40,129 ERROR unhealthIp:169.254.124.71, unhealthCount:24
+
+2020-04-05 22:17:45,130 ERROR unhealthIp:169.254.124.71, unhealthCount:25
+
+2020-04-05 22:17:50,131 ERROR unhealthIp:169.254.124.71, unhealthCount:26
+
+2020-04-05 22:17:55,132 ERROR unhealthIp:169.254.124.71, unhealthCount:27
+
+2020-04-05 22:18:00,133 ERROR unhealthIp:169.254.124.71, unhealthCount:28
+
+2020-04-05 22:18:05,133 ERROR unhealthIp:169.254.124.71, unhealthCount:29
+
+2020-04-05 22:18:10,135 ERROR unhealthIp:169.254.124.71, unhealthCount:30
+
+2020-04-05 22:18:15,134 ERROR unhealthIp:169.254.124.71, unhealthCount:31
+
+2020-04-05 22:18:20,136 ERROR unhealthIp:169.254.124.71, unhealthCount:32
+
+2020-04-05 22:18:25,136 ERROR unhealthIp:169.254.124.71, unhealthCount:33
+
+2020-04-05 22:18:30,137 ERROR unhealthIp:169.254.124.71, unhealthCount:34
+
+2020-04-05 22:18:35,137 ERROR unhealthIp:169.254.124.71, unhealthCount:35
+
+2020-04-05 22:18:40,142 ERROR unhealthIp:169.254.124.71, unhealthCount:36
+
+2020-04-05 22:18:45,140 ERROR unhealthIp:169.254.124.71, unhealthCount:37
+
+2020-04-05 22:18:50,142 ERROR unhealthIp:169.254.124.71, unhealthCount:38
+
+2020-04-05 22:18:55,142 ERROR unhealthIp:169.254.124.71, unhealthCount:39
+
+2020-04-05 22:19:00,143 ERROR unhealthIp:169.254.124.71, unhealthCount:40
+
+2020-04-05 22:19:05,144 ERROR unhealthIp:169.254.124.71, unhealthCount:41
+
+2020-04-05 22:19:10,144 ERROR unhealthIp:169.254.124.71, unhealthCount:42
+
+2020-04-05 22:19:15,145 ERROR unhealthIp:169.254.124.71, unhealthCount:43
+
+2020-04-05 22:19:20,146 ERROR unhealthIp:169.254.124.71, unhealthCount:44
+
+2020-04-05 22:19:25,148 ERROR unhealthIp:169.254.124.71, unhealthCount:45
+
+2020-04-05 22:19:30,151 ERROR unhealthIp:169.254.124.71, unhealthCount:46
+
+2020-04-05 22:19:35,150 ERROR unhealthIp:169.254.124.71, unhealthCount:47
+
+2020-04-05 22:19:40,150 ERROR unhealthIp:169.254.124.71, unhealthCount:48
+
+2020-04-05 22:19:45,151 ERROR unhealthIp:169.254.124.71, unhealthCount:49
+
+2020-04-05 22:19:50,153 ERROR unhealthIp:169.254.124.71, unhealthCount:50
+
+2020-04-05 22:19:55,154 ERROR unhealthIp:169.254.124.71, unhealthCount:51
+
+2020-04-05 22:20:00,158 ERROR unhealthIp:169.254.124.71, unhealthCount:52
+
+2020-04-05 22:20:05,156 ERROR unhealthIp:169.254.124.71, unhealthCount:53
+
+2020-04-05 22:20:10,159 ERROR unhealthIp:169.254.124.71, unhealthCount:54
+
+2020-04-05 22:20:15,160 ERROR unhealthIp:169.254.124.71, unhealthCount:55
+
+2020-04-05 22:20:20,163 ERROR unhealthIp:169.254.124.71, unhealthCount:56
+
+2020-04-05 22:20:25,164 ERROR unhealthIp:169.254.124.71, unhealthCount:57
+
+2020-04-05 22:22:34,767 INFO notifyConnectTimeout:200
+
+2020-04-05 22:22:34,768 INFO notifySocketTimeout:8000
+
+2020-04-05 22:22:34,768 INFO isHealthCheck:true
+
+2020-04-05 22:22:34,768 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:22:34,768 INFO maxContent:10485760
+
+2020-04-05 22:22:34,768 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:22:43,753 INFO ServerListService address-server port:8848
+
+2020-04-05 22:22:43,753 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:22:43,754 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:22:43,838 WARN DumpService start
+
+2020-04-05 22:22:43,842 INFO start clear all config-info.
+
+2020-04-05 22:22:43,846 WARN clear all config-info failed.
+
+2020-04-05 22:22:43,847 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:28:40,470 INFO notifyConnectTimeout:200
+
+2020-04-05 22:28:40,470 INFO notifySocketTimeout:8000
+
+2020-04-05 22:28:40,470 INFO isHealthCheck:true
+
+2020-04-05 22:28:40,470 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:28:40,471 INFO maxContent:10485760
+
+2020-04-05 22:28:40,471 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:28:49,504 INFO ServerListService address-server port:8848
+
+2020-04-05 22:28:49,504 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:28:49,505 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:28:49,574 WARN DumpService start
+
+2020-04-05 22:28:49,577 INFO start clear all config-info.
+
+2020-04-05 22:28:49,581 WARN clear all config-info failed.
+
+2020-04-05 22:28:49,581 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:31:07,282 INFO notifyConnectTimeout:200
+
+2020-04-05 22:31:07,283 INFO notifySocketTimeout:8000
+
+2020-04-05 22:31:07,283 INFO isHealthCheck:true
+
+2020-04-05 22:31:07,283 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:31:07,283 INFO maxContent:10485760
+
+2020-04-05 22:31:07,283 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:31:16,355 INFO ServerListService address-server port:8848
+
+2020-04-05 22:31:16,356 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:31:16,356 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:31:16,431 WARN DumpService start
+
+2020-04-05 22:31:16,434 INFO start clear all config-info.
+
+2020-04-05 22:31:16,439 WARN clear all config-info failed.
+
+2020-04-05 22:31:16,439 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:34:44,103 INFO notifyConnectTimeout:200
+
+2020-04-05 22:34:44,103 INFO notifySocketTimeout:8000
+
+2020-04-05 22:34:44,103 INFO isHealthCheck:true
+
+2020-04-05 22:34:44,103 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:34:44,103 INFO maxContent:10485760
+
+2020-04-05 22:34:44,104 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:34:53,247 INFO ServerListService address-server port:8848
+
+2020-04-05 22:34:53,247 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:34:53,247 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:34:53,324 WARN DumpService start
+
+2020-04-05 22:34:53,326 INFO start clear all config-info.
+
+2020-04-05 22:34:53,330 WARN clear all config-info failed.
+
+2020-04-05 22:34:53,330 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:35:54,311 ERROR unhealthIp:169.254.124.71, unhealthCount:13
+
+2020-04-05 22:35:59,312 ERROR unhealthIp:169.254.124.71, unhealthCount:14
+
+2020-04-05 22:36:04,314 ERROR unhealthIp:169.254.124.71, unhealthCount:15
+
+2020-04-05 22:36:09,315 ERROR unhealthIp:169.254.124.71, unhealthCount:16
+
+2020-04-05 22:36:14,317 ERROR unhealthIp:169.254.124.71, unhealthCount:17
+
+2020-04-05 22:36:19,319 ERROR unhealthIp:169.254.124.71, unhealthCount:18
+
+2020-04-05 22:36:24,319 ERROR unhealthIp:169.254.124.71, unhealthCount:19
+
+2020-04-05 22:36:29,320 ERROR unhealthIp:169.254.124.71, unhealthCount:20
+
+2020-04-05 22:36:34,321 ERROR unhealthIp:169.254.124.71, unhealthCount:21
+
+2020-04-05 22:36:39,322 ERROR unhealthIp:169.254.124.71, unhealthCount:22
+
+2020-04-05 22:36:44,323 ERROR unhealthIp:169.254.124.71, unhealthCount:23
+
+2020-04-05 22:36:49,324 ERROR unhealthIp:169.254.124.71, unhealthCount:24
+
+2020-04-05 22:36:54,325 ERROR unhealthIp:169.254.124.71, unhealthCount:25
+
+2020-04-05 22:36:59,326 ERROR unhealthIp:169.254.124.71, unhealthCount:26
+
+2020-04-05 22:37:04,327 ERROR unhealthIp:169.254.124.71, unhealthCount:27
+
+2020-04-05 22:37:09,328 ERROR unhealthIp:169.254.124.71, unhealthCount:28
+
+2020-04-05 22:37:14,329 ERROR unhealthIp:169.254.124.71, unhealthCount:29
+
+2020-04-05 22:37:19,330 ERROR unhealthIp:169.254.124.71, unhealthCount:30
+
+2020-04-05 22:37:24,335 ERROR unhealthIp:169.254.124.71, unhealthCount:31
+
+2020-04-05 22:37:29,332 ERROR unhealthIp:169.254.124.71, unhealthCount:32
+
+2020-04-05 22:37:34,333 ERROR unhealthIp:169.254.124.71, unhealthCount:33
+
+2020-04-05 22:37:39,334 ERROR unhealthIp:169.254.124.71, unhealthCount:34
+
+2020-04-05 22:37:44,336 ERROR unhealthIp:169.254.124.71, unhealthCount:35
+
+2020-04-05 22:37:49,336 ERROR unhealthIp:169.254.124.71, unhealthCount:36
+
+2020-04-05 22:37:54,338 ERROR unhealthIp:169.254.124.71, unhealthCount:37
+
+2020-04-05 22:37:59,338 ERROR unhealthIp:169.254.124.71, unhealthCount:38
+
+2020-04-05 22:38:04,341 ERROR unhealthIp:169.254.124.71, unhealthCount:39
+
+2020-04-05 22:38:09,342 ERROR unhealthIp:169.254.124.71, unhealthCount:40
+
+2020-04-05 22:38:14,341 ERROR unhealthIp:169.254.124.71, unhealthCount:41
+
+2020-04-05 22:38:19,343 ERROR unhealthIp:169.254.124.71, unhealthCount:42
+
+2020-04-05 22:38:24,343 ERROR unhealthIp:169.254.124.71, unhealthCount:43
+
+2020-04-05 22:38:29,344 ERROR unhealthIp:169.254.124.71, unhealthCount:44
+
+2020-04-05 22:38:34,345 ERROR unhealthIp:169.254.124.71, unhealthCount:45
+
+2020-04-05 22:38:39,346 ERROR unhealthIp:169.254.124.71, unhealthCount:46
+
+2020-04-05 22:38:44,349 ERROR unhealthIp:169.254.124.71, unhealthCount:47
+
+2020-04-05 22:38:49,348 ERROR unhealthIp:169.254.124.71, unhealthCount:48
+
+2020-04-05 22:38:54,348 ERROR unhealthIp:169.254.124.71, unhealthCount:49
+
+2020-04-05 22:38:59,350 ERROR unhealthIp:169.254.124.71, unhealthCount:50
+
+2020-04-05 22:39:04,352 ERROR unhealthIp:169.254.124.71, unhealthCount:51
+
+2020-04-05 22:39:09,352 ERROR unhealthIp:169.254.124.71, unhealthCount:52
+
+2020-04-05 22:39:14,353 ERROR unhealthIp:169.254.124.71, unhealthCount:53
+
+2020-04-05 22:39:19,354 ERROR unhealthIp:169.254.124.71, unhealthCount:54
+
+2020-04-05 22:39:24,356 ERROR unhealthIp:169.254.124.71, unhealthCount:55
+
+2020-04-05 22:39:29,356 ERROR unhealthIp:169.254.124.71, unhealthCount:56
+
+2020-04-05 22:39:34,357 ERROR unhealthIp:169.254.124.71, unhealthCount:57
+
+2020-04-05 22:39:39,358 ERROR unhealthIp:169.254.124.71, unhealthCount:58
+
+2020-04-05 22:39:44,359 ERROR unhealthIp:169.254.124.71, unhealthCount:59
+
+2020-04-05 22:39:49,362 ERROR unhealthIp:169.254.124.71, unhealthCount:60
+
+2020-04-05 22:39:54,361 ERROR unhealthIp:169.254.124.71, unhealthCount:61
+
+2020-04-05 22:39:59,362 ERROR unhealthIp:169.254.124.71, unhealthCount:62
+
+2020-04-05 22:40:04,363 ERROR unhealthIp:169.254.124.71, unhealthCount:63
+
+2020-04-05 22:40:09,366 ERROR unhealthIp:169.254.124.71, unhealthCount:64
+
+2020-04-05 22:40:14,366 ERROR unhealthIp:169.254.124.71, unhealthCount:65
+
+2020-04-05 22:40:19,367 ERROR unhealthIp:169.254.124.71, unhealthCount:66
+
+2020-04-05 22:40:24,367 ERROR unhealthIp:169.254.124.71, unhealthCount:67
+
+2020-04-05 22:40:29,368 ERROR unhealthIp:169.254.124.71, unhealthCount:68
+
+2020-04-05 22:40:34,370 ERROR unhealthIp:169.254.124.71, unhealthCount:69
+
+2020-04-05 22:40:39,370 ERROR unhealthIp:169.254.124.71, unhealthCount:70
+
+2020-04-05 22:40:44,372 ERROR unhealthIp:169.254.124.71, unhealthCount:71
+
+2020-04-05 22:40:49,374 ERROR unhealthIp:169.254.124.71, unhealthCount:72
+
+2020-04-05 22:40:54,375 ERROR unhealthIp:169.254.124.71, unhealthCount:73
+
+2020-04-05 22:40:59,375 ERROR unhealthIp:169.254.124.71, unhealthCount:74
+
+2020-04-05 22:41:04,376 ERROR unhealthIp:169.254.124.71, unhealthCount:75
+
+2020-04-05 22:41:09,379 ERROR unhealthIp:169.254.124.71, unhealthCount:76
+
+2020-04-05 22:41:16,949 INFO notifyConnectTimeout:200
+
+2020-04-05 22:41:16,949 INFO notifySocketTimeout:8000
+
+2020-04-05 22:41:16,949 INFO isHealthCheck:true
+
+2020-04-05 22:41:16,949 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:41:16,950 INFO maxContent:10485760
+
+2020-04-05 22:41:16,950 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:41:26,150 INFO ServerListService address-server port:8848
+
+2020-04-05 22:41:26,150 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:41:26,151 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:41:26,243 WARN DumpService start
+
+2020-04-05 22:41:26,245 INFO start clear all config-info.
+
+2020-04-05 22:41:26,250 WARN clear all config-info failed.
+
+2020-04-05 22:41:26,251 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:42:27,234 ERROR unhealthIp:169.254.124.71, unhealthCount:13
+
+2020-04-05 22:42:32,238 ERROR unhealthIp:169.254.124.71, unhealthCount:14
+
+2020-04-05 22:42:37,237 ERROR unhealthIp:169.254.124.71, unhealthCount:15
+
+2020-04-05 22:42:42,240 ERROR unhealthIp:169.254.124.71, unhealthCount:16
+
+2020-04-05 22:42:47,241 ERROR unhealthIp:169.254.124.71, unhealthCount:17
+
+2020-04-05 22:42:47,571 INFO notifyConnectTimeout:200
+
+2020-04-05 22:42:47,571 INFO notifySocketTimeout:8000
+
+2020-04-05 22:42:47,572 INFO isHealthCheck:true
+
+2020-04-05 22:42:47,572 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:42:47,572 INFO maxContent:10485760
+
+2020-04-05 22:42:47,572 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:42:52,244 ERROR unhealthIp:169.254.124.71, unhealthCount:18
+
+2020-04-05 22:42:56,705 INFO ServerListService address-server port:8848
+
+2020-04-05 22:42:56,705 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:42:56,706 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:42:56,779 WARN DumpService start
+
+2020-04-05 22:42:56,781 INFO start clear all config-info.
+
+2020-04-05 22:42:56,785 WARN clear all config-info failed.
+
+2020-04-05 22:42:56,786 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:42:57,245 ERROR unhealthIp:169.254.124.71, unhealthCount:19
+
+2020-04-05 22:43:02,248 ERROR unhealthIp:169.254.124.71, unhealthCount:20
+
+2020-04-05 22:43:07,248 ERROR unhealthIp:169.254.124.71, unhealthCount:21
+
+2020-04-05 22:43:12,251 ERROR unhealthIp:169.254.124.71, unhealthCount:22
+
+2020-04-05 22:43:17,253 ERROR unhealthIp:169.254.124.71, unhealthCount:23
+
+2020-04-05 22:43:22,254 ERROR unhealthIp:169.254.124.71, unhealthCount:24
+
+2020-04-05 22:43:27,255 ERROR unhealthIp:169.254.124.71, unhealthCount:25
+
+2020-04-05 22:43:32,257 ERROR unhealthIp:169.254.124.71, unhealthCount:26
+
+2020-04-05 22:43:37,259 ERROR unhealthIp:169.254.124.71, unhealthCount:27
+
+2020-04-05 22:43:42,261 ERROR unhealthIp:169.254.124.71, unhealthCount:28
+
+2020-04-05 22:43:46,504 INFO notifyConnectTimeout:200
+
+2020-04-05 22:43:46,504 INFO notifySocketTimeout:8000
+
+2020-04-05 22:43:46,504 INFO isHealthCheck:true
+
+2020-04-05 22:43:46,504 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:43:46,505 INFO maxContent:10485760
+
+2020-04-05 22:43:46,505 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:43:47,263 ERROR unhealthIp:169.254.124.71, unhealthCount:29
+
+2020-04-05 22:43:47,931 INFO ServerListService address-server port:8848
+
+2020-04-05 22:43:47,931 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:43:47,931 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:43:48,006 WARN DumpService start
+
+2020-04-05 22:43:48,009 INFO start clear all config-info.
+
+2020-04-05 22:43:48,013 WARN clear all config-info failed.
+
+2020-04-05 22:43:48,014 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:43:48,075 INFO [all-dump] 24 / 24
+
+2020-04-05 22:43:48,075 INFO start clear all config-info-beta.
+
+2020-04-05 22:43:48,075 WARN clear all config-info-beta failed.
+
+2020-04-05 22:43:48,076 WARN clear all config-info-beta-tenant failed.
+
+2020-04-05 22:43:48,083 INFO start clear all config-info-tag.
+
+2020-04-05 22:43:48,084 WARN clear all config-info-tag failed.
+
+2020-04-05 22:43:48,084 WARN clear all config-info-tag-tenant failed.
+
+2020-04-05 22:43:52,266 ERROR unhealthIp:169.254.124.71, unhealthCount:30
+
+2020-04-05 22:43:57,267 ERROR unhealthIp:169.254.124.71, unhealthCount:31
+
+2020-04-05 22:44:02,269 ERROR unhealthIp:169.254.124.71, unhealthCount:32
+
+2020-04-05 22:44:07,271 ERROR unhealthIp:169.254.124.71, unhealthCount:33
+
+2020-04-05 22:44:12,274 ERROR unhealthIp:169.254.124.71, unhealthCount:34
+
+2020-04-05 22:44:17,275 ERROR unhealthIp:169.254.124.71, unhealthCount:35
+
+2020-04-05 22:44:22,277 ERROR unhealthIp:169.254.124.71, unhealthCount:36
+
+2020-04-05 22:44:27,280 ERROR unhealthIp:169.254.124.71, unhealthCount:37
+
+2020-04-05 22:44:32,281 ERROR unhealthIp:169.254.124.71, unhealthCount:38
+
+2020-04-05 22:44:37,283 ERROR unhealthIp:169.254.124.71, unhealthCount:39
+
+2020-04-05 22:44:42,285 ERROR unhealthIp:169.254.124.71, unhealthCount:40
+
+2020-04-05 22:44:47,288 ERROR unhealthIp:169.254.124.71, unhealthCount:41
+
+2020-04-05 22:44:52,290 ERROR unhealthIp:169.254.124.71, unhealthCount:42
+
+2020-04-05 22:44:57,293 ERROR unhealthIp:169.254.124.71, unhealthCount:43
+
+2020-04-05 22:45:02,293 ERROR unhealthIp:169.254.124.71, unhealthCount:44
+
+2020-04-05 22:45:07,295 ERROR unhealthIp:169.254.124.71, unhealthCount:45
+
+2020-04-05 22:45:12,297 ERROR unhealthIp:169.254.124.71, unhealthCount:46
+
+2020-04-05 22:45:17,299 ERROR unhealthIp:169.254.124.71, unhealthCount:47
+
+2020-04-05 22:45:22,300 ERROR unhealthIp:169.254.124.71, unhealthCount:48
+
+2020-04-05 22:45:27,301 ERROR unhealthIp:169.254.124.71, unhealthCount:49
+
+2020-04-05 22:45:32,303 ERROR unhealthIp:169.254.124.71, unhealthCount:50
+
+2020-04-05 22:45:37,306 ERROR unhealthIp:169.254.124.71, unhealthCount:51
+
+2020-04-05 22:45:42,307 ERROR unhealthIp:169.254.124.71, unhealthCount:52
+
+2020-04-05 22:45:47,309 ERROR unhealthIp:169.254.124.71, unhealthCount:53
+
+2020-04-05 22:45:52,310 ERROR unhealthIp:169.254.124.71, unhealthCount:54
+
+2020-04-05 22:45:57,312 ERROR unhealthIp:169.254.124.71, unhealthCount:55
+
+2020-04-05 22:46:02,314 ERROR unhealthIp:169.254.124.71, unhealthCount:56
+
+2020-04-05 22:46:07,316 ERROR unhealthIp:169.254.124.71, unhealthCount:57
+
+2020-04-05 22:46:12,318 ERROR unhealthIp:169.254.124.71, unhealthCount:58
+
+2020-04-05 22:46:17,324 ERROR unhealthIp:169.254.124.71, unhealthCount:59
+
+2020-04-05 22:46:18,439 INFO notifyConnectTimeout:200
+
+2020-04-05 22:46:18,439 INFO notifySocketTimeout:8000
+
+2020-04-05 22:46:18,439 INFO isHealthCheck:true
+
+2020-04-05 22:46:18,439 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:46:18,439 INFO maxContent:10485760
+
+2020-04-05 22:46:18,440 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:46:22,325 ERROR unhealthIp:169.254.124.71, unhealthCount:60
+
+2020-04-05 22:46:27,326 ERROR unhealthIp:169.254.124.71, unhealthCount:61
+
+2020-04-05 22:46:27,597 INFO ServerListService address-server port:8848
+
+2020-04-05 22:46:27,597 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:46:27,598 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:46:27,676 WARN DumpService start
+
+2020-04-05 22:46:27,681 INFO start clear all config-info.
+
+2020-04-05 22:46:27,700 INFO clear all config-info success.
+
+2020-04-05 22:46:27,700 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:46:32,330 ERROR unhealthIp:169.254.124.71, unhealthCount:62
+
+2020-04-05 22:46:37,327 ERROR unhealthIp:169.254.124.71, unhealthCount:63
+
+2020-04-05 22:46:42,329 ERROR unhealthIp:169.254.124.71, unhealthCount:64
+
+2020-04-05 22:46:47,331 ERROR unhealthIp:169.254.124.71, unhealthCount:65
+
+2020-04-05 22:46:52,332 ERROR unhealthIp:169.254.124.71, unhealthCount:66
+
+2020-04-05 22:46:57,333 ERROR unhealthIp:169.254.124.71, unhealthCount:67
+
+2020-04-05 22:47:02,335 ERROR unhealthIp:169.254.124.71, unhealthCount:68
+
+2020-04-05 22:47:07,334 ERROR unhealthIp:169.254.124.71, unhealthCount:69
+
+2020-04-05 22:47:12,335 ERROR unhealthIp:169.254.124.71, unhealthCount:70
+
+2020-04-05 22:47:17,339 ERROR unhealthIp:169.254.124.71, unhealthCount:71
+
+2020-04-05 22:47:22,337 ERROR unhealthIp:169.254.124.71, unhealthCount:72
+
+2020-04-05 22:47:27,340 ERROR unhealthIp:169.254.124.71, unhealthCount:73
+
+2020-04-05 22:47:32,340 ERROR unhealthIp:169.254.124.71, unhealthCount:74
+
+2020-04-05 22:47:37,341 ERROR unhealthIp:169.254.124.71, unhealthCount:75
+
+2020-04-05 22:47:42,342 ERROR unhealthIp:169.254.124.71, unhealthCount:76
+
+2020-04-05 22:47:47,342 ERROR unhealthIp:169.254.124.71, unhealthCount:77
+
+2020-04-05 22:47:52,347 ERROR unhealthIp:169.254.124.71, unhealthCount:78
+
+2020-04-05 22:47:57,344 ERROR unhealthIp:169.254.124.71, unhealthCount:79
+
+2020-04-05 22:47:59,392 INFO notifyConnectTimeout:200
+
+2020-04-05 22:47:59,393 INFO notifySocketTimeout:8000
+
+2020-04-05 22:47:59,393 INFO isHealthCheck:true
+
+2020-04-05 22:47:59,393 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:47:59,393 INFO maxContent:10485760
+
+2020-04-05 22:47:59,393 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:48:00,230 INFO ServerListService address-server port:8848
+
+2020-04-05 22:48:00,231 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-04-05 22:48:00,231 WARN [serverlist] updated to [169.254.124.71]
+
+2020-04-05 22:48:00,313 WARN DumpService start
+
+2020-04-05 22:48:00,316 INFO start clear all config-info.
+
+2020-04-05 22:48:00,320 WARN clear all config-info failed.
+
+2020-04-05 22:48:00,321 WARN clear all config-info-tenant failed.
+
+2020-04-05 22:48:02,346 ERROR unhealthIp:169.254.124.71, unhealthCount:80
+
+2020-04-05 22:48:07,346 ERROR unhealthIp:169.254.124.71, unhealthCount:81
+
+2020-04-05 22:48:12,347 ERROR unhealthIp:169.254.124.71, unhealthCount:82
+
+2020-04-05 22:48:17,348 ERROR unhealthIp:169.254.124.71, unhealthCount:83
+
+2020-04-05 22:48:22,349 ERROR unhealthIp:169.254.124.71, unhealthCount:84
+
+2020-04-05 22:48:27,350 ERROR unhealthIp:169.254.124.71, unhealthCount:85
+
+2020-04-05 22:48:32,353 ERROR unhealthIp:169.254.124.71, unhealthCount:86
+
+2020-04-05 22:48:37,356 ERROR unhealthIp:169.254.124.71, unhealthCount:87
+
+2020-04-05 22:48:42,357 ERROR unhealthIp:169.254.124.71, unhealthCount:88
+
+2020-04-05 22:48:47,369 ERROR unhealthIp:169.254.124.71, unhealthCount:89
+
+2020-04-05 22:48:49,156 INFO notifyConnectTimeout:200
+
+2020-04-05 22:48:49,156 INFO notifySocketTimeout:8000
+
+2020-04-05 22:48:49,156 INFO isHealthCheck:true
+
+2020-04-05 22:48:49,156 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:48:49,156 INFO maxContent:10485760
+
+2020-04-05 22:48:49,157 INFO spring.datasource.platform:mysql
+
+2020-04-05 22:48:52,372 ERROR unhealthIp:169.254.124.71, unhealthCount:90
+
+2020-04-05 22:48:57,373 ERROR unhealthIp:169.254.124.71, unhealthCount:91
+
+2020-04-05 22:49:02,376 ERROR unhealthIp:169.254.124.71, unhealthCount:92
+
+2020-04-05 22:49:07,376 ERROR unhealthIp:169.254.124.71, unhealthCount:93
+
+2020-04-05 22:49:12,378 ERROR unhealthIp:169.254.124.71, unhealthCount:94
+
+2020-04-05 22:49:17,381 ERROR unhealthIp:169.254.124.71, unhealthCount:95
+
+2020-04-05 22:49:22,384 ERROR unhealthIp:169.254.124.71, unhealthCount:96
+
+2020-04-05 22:49:27,387 ERROR unhealthIp:169.254.124.71, unhealthCount:97
+
+2020-04-05 22:49:32,387 ERROR unhealthIp:169.254.124.71, unhealthCount:98
+
+2020-04-05 22:49:37,387 ERROR unhealthIp:169.254.124.71, unhealthCount:99
+
+2020-04-05 22:49:42,389 ERROR unhealthIp:169.254.124.71, unhealthCount:100
+
+2020-04-05 22:49:47,391 ERROR unhealthIp:169.254.124.71, unhealthCount:101
+
+2020-04-05 22:49:52,393 ERROR unhealthIp:169.254.124.71, unhealthCount:102
+
+2020-04-05 22:49:57,395 ERROR unhealthIp:169.254.124.71, unhealthCount:103
+
+2020-04-05 22:50:02,397 ERROR unhealthIp:169.254.124.71, unhealthCount:104
+
+2020-04-05 22:50:07,400 ERROR unhealthIp:169.254.124.71, unhealthCount:105
+
+2020-04-05 22:50:12,400 ERROR unhealthIp:169.254.124.71, unhealthCount:106
+
+2020-04-05 22:50:17,402 ERROR unhealthIp:169.254.124.71, unhealthCount:107
+
+2020-04-05 22:50:22,404 ERROR unhealthIp:169.254.124.71, unhealthCount:108
+
+2020-04-05 22:50:27,406 ERROR unhealthIp:169.254.124.71, unhealthCount:109
+
+2020-04-05 22:50:32,409 ERROR unhealthIp:169.254.124.71, unhealthCount:110
+
+2020-04-05 22:50:37,410 ERROR unhealthIp:169.254.124.71, unhealthCount:111
+
+2020-04-05 22:50:42,411 ERROR unhealthIp:169.254.124.71, unhealthCount:112
+
+2020-04-05 22:50:47,413 ERROR unhealthIp:169.254.124.71, unhealthCount:113
+
+2020-04-05 22:50:52,415 ERROR unhealthIp:169.254.124.71, unhealthCount:114
+
+2020-04-05 22:50:57,417 ERROR unhealthIp:169.254.124.71, unhealthCount:115
+
+2020-04-05 22:51:02,419 ERROR unhealthIp:169.254.124.71, unhealthCount:116
+
+2020-04-05 22:51:07,421 ERROR unhealthIp:169.254.124.71, unhealthCount:117
+
+2020-04-05 22:51:12,423 ERROR unhealthIp:169.254.124.71, unhealthCount:118
+
+2020-04-05 22:51:17,425 ERROR unhealthIp:169.254.124.71, unhealthCount:119
+
+2020-04-05 22:51:22,427 ERROR unhealthIp:169.254.124.71, unhealthCount:120
+
+2020-04-05 22:51:27,429 ERROR unhealthIp:169.254.124.71, unhealthCount:121
+
+2020-04-05 22:51:32,431 ERROR unhealthIp:169.254.124.71, unhealthCount:122
+
+2020-04-05 22:51:37,433 ERROR unhealthIp:169.254.124.71, unhealthCount:123
+
+2020-04-05 22:51:42,435 ERROR unhealthIp:169.254.124.71, unhealthCount:124
+
+2020-04-05 22:51:47,437 ERROR unhealthIp:169.254.124.71, unhealthCount:125
+
+2020-04-05 22:51:52,439 ERROR unhealthIp:169.254.124.71, unhealthCount:126
+
+2020-04-05 22:51:57,441 ERROR unhealthIp:169.254.124.71, unhealthCount:127
+
+2020-04-05 22:52:02,443 ERROR unhealthIp:169.254.124.71, unhealthCount:128
+
+2020-04-05 22:52:07,445 ERROR unhealthIp:169.254.124.71, unhealthCount:129
+
+2020-04-05 22:52:12,447 ERROR unhealthIp:169.254.124.71, unhealthCount:130
+
+2020-04-05 22:52:17,449 ERROR unhealthIp:169.254.124.71, unhealthCount:131
+
+2020-04-05 22:52:22,451 ERROR unhealthIp:169.254.124.71, unhealthCount:132
+
+2020-04-05 22:52:27,453 ERROR unhealthIp:169.254.124.71, unhealthCount:133
+
+2020-04-05 22:52:32,455 ERROR unhealthIp:169.254.124.71, unhealthCount:134
+
+2020-04-05 22:52:37,457 ERROR unhealthIp:169.254.124.71, unhealthCount:135
+
+2020-04-05 22:52:42,459 ERROR unhealthIp:169.254.124.71, unhealthCount:136
+
+2020-04-05 22:52:47,462 ERROR unhealthIp:169.254.124.71, unhealthCount:137
+
+2020-04-05 22:52:52,465 ERROR unhealthIp:169.254.124.71, unhealthCount:138
+
+2020-04-05 22:52:57,465 ERROR unhealthIp:169.254.124.71, unhealthCount:139
+
+2020-04-05 22:53:02,467 ERROR unhealthIp:169.254.124.71, unhealthCount:140
+
+2020-04-05 22:53:07,469 ERROR unhealthIp:169.254.124.71, unhealthCount:141
+
+2020-04-05 22:53:12,471 ERROR unhealthIp:169.254.124.71, unhealthCount:142
+
+2020-04-05 22:53:17,472 ERROR unhealthIp:169.254.124.71, unhealthCount:143
+
+2020-04-05 22:53:22,473 ERROR unhealthIp:169.254.124.71, unhealthCount:144
+
+2020-04-05 22:53:27,474 ERROR unhealthIp:169.254.124.71, unhealthCount:145
+
+2020-04-05 22:53:32,476 ERROR unhealthIp:169.254.124.71, unhealthCount:146
+
+2020-04-05 22:53:37,479 ERROR unhealthIp:169.254.124.71, unhealthCount:147
+
+2020-04-05 22:53:42,481 ERROR unhealthIp:169.254.124.71, unhealthCount:148
+
+2020-04-05 22:53:47,481 ERROR unhealthIp:169.254.124.71, unhealthCount:149
+
+2020-04-05 22:53:52,482 ERROR unhealthIp:169.254.124.71, unhealthCount:150
+
+2020-04-05 22:53:57,484 ERROR unhealthIp:169.254.124.71, unhealthCount:151
+
+2020-04-05 22:54:02,486 ERROR unhealthIp:169.254.124.71, unhealthCount:152
+
+2020-04-05 22:54:07,487 ERROR unhealthIp:169.254.124.71, unhealthCount:153
+
+2020-04-05 22:54:12,488 ERROR unhealthIp:169.254.124.71, unhealthCount:154
+
+2020-04-05 22:54:17,490 ERROR unhealthIp:169.254.124.71, unhealthCount:155
+
+2020-04-05 22:54:22,494 ERROR unhealthIp:169.254.124.71, unhealthCount:156
+
+2020-04-05 22:54:27,494 ERROR unhealthIp:169.254.124.71, unhealthCount:157
+
+2020-04-05 22:54:32,496 ERROR unhealthIp:169.254.124.71, unhealthCount:158
+
+2020-04-05 22:54:37,501 ERROR unhealthIp:169.254.124.71, unhealthCount:159
+
+2020-04-05 22:54:42,499 ERROR unhealthIp:169.254.124.71, unhealthCount:160
+
+2020-04-05 22:54:47,501 ERROR unhealthIp:169.254.124.71, unhealthCount:161
+
+2020-04-05 22:54:52,503 ERROR unhealthIp:169.254.124.71, unhealthCount:162
+
+2020-04-05 22:54:57,504 ERROR unhealthIp:169.254.124.71, unhealthCount:163
+
+2020-04-05 22:55:02,506 ERROR unhealthIp:169.254.124.71, unhealthCount:164
+
+2020-04-05 22:55:07,508 ERROR unhealthIp:169.254.124.71, unhealthCount:165
+
+2020-04-05 22:55:12,509 ERROR unhealthIp:169.254.124.71, unhealthCount:166
+
+2020-04-05 22:55:17,510 ERROR unhealthIp:169.254.124.71, unhealthCount:167
+
+2020-04-05 22:55:25,687 INFO notifyConnectTimeout:200
+
+2020-04-05 22:55:25,687 INFO notifySocketTimeout:8000
+
+2020-04-05 22:55:25,687 INFO isHealthCheck:true
+
+2020-04-05 22:55:25,687 INFO maxHealthCheckFailCount:12
+
+2020-04-05 22:55:25,688 INFO maxContent:10485760
+
+2020-04-05 22:55:25,688 INFO spring.datasource.platform:mysql
+
