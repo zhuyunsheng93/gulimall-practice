@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c8e74fb-e998-4323-98bd-635007d3079c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.idea/front.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c774402-cc9b-4b0d-8cbb-571adb7c32ea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c774402-cc9b-4b0d-8cbb-571adb7c32ea/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gulimall.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/gulimall-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/gulimall-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/target/classes/META-INF/gulimall-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-third-party/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/config-fatal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/nacos_gc.log.0.current" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/nacos_gc.log.0.current" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/naming-distro.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/naming-distro.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/naming-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/start.out" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/nacos-server-1.1.3/nacos/logs/start.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1t9ca1PeJe1fwzq2e9EC6EmigKq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.18620689" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.RenrenApplication">
+    <configuration name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-coupon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.coupon.GulimallCouponApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.gateway.GulimallGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.member.GulimallMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.order.GulimallOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.product.GulimallProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallThirdPartyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-third-party" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.thirdparty.GulimallThirdPartyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-ware" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.ware.GulimallWareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-fast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c8e74fb-e998-4323-98bd-635007d3079c" name="Default Changelist" comment="" />
+      <created>1622184805175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622184805175</updated>
+      <workItem from="1622184808494" duration="684000" />
+      <workItem from="1623206184370" duration="282000" />
+      <workItem from="1626850159078" duration="4349000" />
+      <workItem from="1626855272128" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="292" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626850319340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="292" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626850319340" />
+    <state width="1339" height="272" key="GridCell.Tab.0.bottom" timestamp="1626855259477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259477" />
+    <state width="1339" height="272" key="GridCell.Tab.0.center" timestamp="1626855259476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259476" />
+    <state width="1339" height="272" key="GridCell.Tab.0.left" timestamp="1626855259476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259476" />
+    <state width="1339" height="272" key="GridCell.Tab.0.right" timestamp="1626855259476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259476" />
+    <state width="1339" height="462" key="GridCell.Tab.1.bottom" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state width="1339" height="462" key="GridCell.Tab.1.center" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state width="1339" height="462" key="GridCell.Tab.1.left" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state width="1339" height="462" key="GridCell.Tab.1.right" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state width="1339" height="462" key="GridCell.Tab.2.bottom" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state width="1339" height="462" key="GridCell.Tab.2.center" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state width="1339" height="462" key="GridCell.Tab.2.left" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state width="1339" height="462" key="GridCell.Tab.2.right" timestamp="1626855259471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1339" height="462" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626855259471" />
+    <state x="180" y="112" key="SettingsEditor" timestamp="1626855236023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="112" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626855236023" />
+    <state x="229" y="130" width="628" height="650" key="find.popup" timestamp="1626854690216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="229" y="130" width="628" height="650" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626854690216" />
+  </component>
+</project>

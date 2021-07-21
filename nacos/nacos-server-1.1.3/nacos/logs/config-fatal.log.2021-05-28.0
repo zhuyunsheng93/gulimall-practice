@@ -1,0 +1,255 @@
+2021-05-02 18:56:46,488 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:56:47,628 ERROR [master-db] master db not found.
+
+2021-05-02 18:57:03,888 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:57:04,740 ERROR [master-db] master db not found.
+
+2021-05-02 18:57:20,937 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:57:21,855 ERROR [master-db] master db not found.
+
+2021-05-02 18:57:37,996 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:57:38,942 ERROR [master-db] master db not found.
+
+2021-05-02 18:57:55,077 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:57:56,080 ERROR [master-db] master db not found.
+
+2021-05-02 18:58:12,128 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:58:13,189 ERROR [master-db] master db not found.
+
+2021-05-02 18:58:29,148 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:58:30,260 ERROR [master-db] master db not found.
+
+2021-05-02 18:58:46,155 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:58:47,323 ERROR [master-db] master db not found.
+
+2021-05-02 18:59:03,162 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:59:04,384 ERROR [master-db] master db not found.
+
+2021-05-02 18:59:20,167 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:59:21,431 ERROR [master-db] master db not found.
+
+2021-05-02 18:59:37,171 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:59:38,522 ERROR [master-db] master db not found.
+
+2021-05-02 18:59:54,176 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 18:59:55,591 ERROR [master-db] master db not found.
+
+2021-05-02 19:00:11,179 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:00:12,661 ERROR [master-db] master db not found.
+
+2021-05-02 19:00:28,185 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:00:29,708 ERROR [master-db] master db not found.
+
+2021-05-02 19:00:45,192 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:00:46,763 ERROR [master-db] master db not found.
+
+2021-05-02 19:01:02,197 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:01:03,814 ERROR [master-db] master db not found.
+
+2021-05-02 19:01:19,202 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:01:20,869 ERROR [master-db] master db not found.
+
+2021-05-02 19:01:36,213 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:01:37,921 ERROR [master-db] master db not found.
+
+2021-05-02 19:01:39,261 ERROR [db-error]
+
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:763)
+	at com.alibaba.nacos.config.server.service.capacity.GroupCapacityPersistService.getCapacityList4CorrectUsage(GroupCapacityPersistService.java:285)
+	at com.alibaba.nacos.config.server.service.capacity.CapacityService.correctGroupUsage(CapacityService.java:145)
+	at com.alibaba.nacos.config.server.service.capacity.CapacityService.correctUsage(CapacityService.java:91)
+	at com.alibaba.nacos.config.server.service.capacity.CapacityService$1.run(CapacityService.java:78)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at sun.reflect.GeneratedConstructorAccessor84.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.Util.getInstance(Util.java:360)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:870)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2144)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2069)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor80.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1188)
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 16 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor83.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1036)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:338)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2232)
+	at com.mysql.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:2085)
+	... 33 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:213)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:297)
+	... 35 common frames omitted
+2021-05-02 19:01:53,220 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:01:54,977 ERROR [master-db] master db not found.
+
+2021-05-02 19:02:10,224 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:02:12,024 ERROR [master-db] master db not found.
+
+2021-05-02 19:02:27,228 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:02:29,071 ERROR [master-db] master db not found.
+
+2021-05-02 19:02:44,233 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:02:46,120 ERROR [master-db] master db not found.
+
+2021-05-02 19:03:01,238 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:03:03,167 ERROR [master-db] master db not found.
+
+2021-05-02 19:03:18,244 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:03:20,217 ERROR [master-db] master db not found.
+
+2021-05-02 19:03:35,249 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:03:37,270 ERROR [master-db] master db not found.
+
+2021-05-02 19:03:52,254 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:03:54,326 ERROR [master-db] master db not found.
+
+2021-05-02 19:04:09,258 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:04:11,376 ERROR [master-db] master db not found.
+
+2021-05-02 19:04:26,263 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:04:28,425 ERROR [master-db] master db not found.
+
+2021-05-02 19:04:43,268 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:04:45,480 ERROR [master-db] master db not found.
+
+2021-05-02 19:05:00,274 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:05:02,554 ERROR [master-db] master db not found.
+
+2021-05-02 19:05:17,281 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:05:19,605 ERROR [master-db] master db not found.
+
+2021-05-02 19:05:34,287 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:05:36,656 ERROR [master-db] master db not found.
+
+2021-05-02 19:05:51,292 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:05:53,706 ERROR [master-db] master db not found.
+
+2021-05-02 19:06:08,297 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:06:10,762 ERROR [master-db] master db not found.
+
+2021-05-02 19:06:25,302 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:06:27,814 ERROR [master-db] master db not found.
+
+2021-05-02 19:06:42,307 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:06:44,863 ERROR [master-db] master db not found.
+
+2021-05-02 19:06:59,313 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:07:01,948 ERROR [master-db] master db not found.
+
+2021-05-02 19:07:16,317 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:07:18,996 ERROR [master-db] master db not found.
+
+2021-05-02 19:07:33,323 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:07:36,058 ERROR [master-db] master db not found.
+
+2021-05-02 19:07:50,328 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:07:53,106 ERROR [master-db] master db not found.
+
+2021-05-02 19:08:07,333 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:08:10,155 ERROR [master-db] master db not found.
+
+2021-05-02 19:08:24,339 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:08:27,215 ERROR [master-db] master db not found.
+
+2021-05-02 19:08:41,344 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:08:44,266 ERROR [master-db] master db not found.
+
+2021-05-02 19:08:58,350 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:09:01,326 ERROR [master-db] master db not found.
+
+2021-05-02 19:09:15,355 ERROR [db-error] master db 192.168.56.10 down.
+
+2021-05-02 19:09:18,376 ERROR [master-db] master db not found.
+
+2021-05-02 19:09:32,359 ERROR [db-error] master db 192.168.56.10 down.
+
