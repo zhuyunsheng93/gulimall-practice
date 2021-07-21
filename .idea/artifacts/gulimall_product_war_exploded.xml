@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gulimall-product:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/gulimall_product_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="gulimall-product/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gulimall-product" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
