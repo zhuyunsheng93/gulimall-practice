@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,24 +23,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8e74fb-e998-4323-98bd-635007d3079c" name="Default Changelist" comment="基础增删改查创建">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/IntegrationChangeHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberCollectSubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/GrowthChangeHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/IntegrationChangeHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberCollectSubjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/feign/CouponFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/GrowthChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/IntegrationChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberCollectSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/GrowthChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/IntegrationChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberCollectSpuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberCollectSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberReceiveAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberStatisticsInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberCollectSpuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberCollectSubjectDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gulimall-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulimall-practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/GulimallCouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/GulimallCouponApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/GulimallGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/GulimallGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-db/SQL文件/guli_ums.sql" beforeDir="false" afterPath="$PROJECT_DIR$/2-db/SQL文件/guli_ums.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/test/java/com/atguigu/gulimall/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/test/java/com/atguigu/gulimall/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/GulimallMemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/GulimallMemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/GulimallOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/GulimallOrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/GulimallProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/GulimallProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/GulimallThirdPartyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/java/com/atguigu/gulimall/thirdparty/GulimallThirdPartyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/test/java/com/atguigu/gulimall/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/test/java/com/atguigu/gulimall/demo/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/GulimallWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/GulimallWareApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/GrowthHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberReceiveAddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/IntegrationHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberStatisticsInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberLevelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserCollectShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/GrowthChangeHistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserCollectSkuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberCollectSpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserCollectSubjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserLevelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserLoginLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserStatisticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberLoginLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/GrowthHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberLoginLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/IntegrationHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberReceiveAddressDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserAddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberLevelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserCollectShopDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberStatisticsInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserCollectSkuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberCollectSpuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserCollectSubjectDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/MemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserLevelDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserLoginLogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserStatisticsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/GrowthHistoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/IntegrationChangeHistoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/IntegrationHistoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/GrowthChangeHistoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserAddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberReceiveAddressEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserCollectShopEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserCollectSkuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberCollectSpuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserCollectSubjectEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberCollectSubjectEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserLevelEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberLevelEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserLoginLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberLoginLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserStatisticsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/MemberStatisticsInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/GrowthHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberLoginLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/IntegrationHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberReceiveAddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberLevelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserCollectShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberStatisticsInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserCollectSkuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberCollectSpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserCollectSubjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserLevelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserLoginLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserStatisticsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/GrowthHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/IntegrationHistoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberLevelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserCollectShopServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserCollectSkuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserCollectSubjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserLevelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserLoginLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserStatisticsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberLoginLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/GrowthHistoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/GrowthChangeHistoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/IntegrationHistoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/IntegrationChangeHistoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserAddressDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberReceiveAddressDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserCollectShopDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserCollectSkuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserCollectSubjectDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserLevelDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberLevelDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserLoginLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberLoginLogDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserStatisticsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/MemberStatisticsInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +132,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -88,7 +173,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-coupon/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-member/src/main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -103,14 +188,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\practicesource\gulimall-practice\gulimall-coupon\src\main" />
       <recent name="E:\practicesource\gulimall-practice\gulimall-member\src\main" />
+      <recent name="E:\practicesource\gulimall-practice\gulimall-coupon\src\main" />
       <recent name="E:\practicesource\gulimall-practice\gulimall-ware\src\main\java\com\atguigu\gulimall\ware" />
       <recent name="E:\practicesource\gulimall-practice\gulimall-order\src\main\java\com\atguigu\gulimall\order" />
       <recent name="E:\practicesource\gulimall-practice\gulimall-product\src\main\java\com\atguigu\gulimall\product" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GulimallThirdPartyApplication">
+  <component name="RunManager" selected="Spring Boot.GulimallCouponApplication">
     <configuration name="GulimallCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gulimall-coupon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gulimall.coupon.GulimallCouponApplication" />
@@ -222,7 +307,8 @@
       <workItem from="1626857880056" duration="1364000" />
       <workItem from="1626859360175" duration="6082000" />
       <workItem from="1626917537869" duration="13136000" />
-      <workItem from="1626938061332" duration="5216000" />
+      <workItem from="1626938061332" duration="6762000" />
+      <workItem from="1626945540010" duration="2889000" />
     </task>
     <task id="LOCAL-00001" summary="基础增删改查创建">
       <created>1626933654005</created>
@@ -275,6 +361,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626918977232" />
+    <state x="692" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626947003095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626947003095" />
     <state x="100" y="100" width="1200" height="847" key="DiffContextDialog" timestamp="1626943479542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,70 +373,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="480" y="227" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626918736789" />
-    <state width="1339" height="465" key="GridCell.Tab.0.bottom" timestamp="1626943798602">
+    <state width="1542" height="406" key="GridCell.Tab.0.bottom" timestamp="1626947829513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798602" />
-    <state width="1339" height="465" key="GridCell.Tab.0.center" timestamp="1626943798602">
+    <state width="1542" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829513" />
+    <state width="1542" height="406" key="GridCell.Tab.0.center" timestamp="1626947829513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798602" />
-    <state width="1339" height="465" key="GridCell.Tab.0.left" timestamp="1626943798602">
+    <state width="1542" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829513" />
+    <state width="1542" height="406" key="GridCell.Tab.0.left" timestamp="1626947829513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798602" />
-    <state width="1339" height="465" key="GridCell.Tab.0.right" timestamp="1626943798602">
+    <state width="1542" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829513" />
+    <state width="1542" height="406" key="GridCell.Tab.0.right" timestamp="1626947829513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798602" />
-    <state width="1339" height="465" key="GridCell.Tab.1.bottom" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829513" />
+    <state width="1542" height="406" key="GridCell.Tab.1.bottom" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
-    <state width="1339" height="465" key="GridCell.Tab.1.center" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
+    <state width="1542" height="406" key="GridCell.Tab.1.center" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
-    <state width="1339" height="465" key="GridCell.Tab.1.left" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
+    <state width="1542" height="406" key="GridCell.Tab.1.left" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
-    <state width="1339" height="465" key="GridCell.Tab.1.right" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
+    <state width="1542" height="406" key="GridCell.Tab.1.right" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
-    <state width="1339" height="465" key="GridCell.Tab.2.bottom" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
+    <state width="1542" height="406" key="GridCell.Tab.2.bottom" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
-    <state width="1339" height="465" key="GridCell.Tab.2.center" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
+    <state width="1542" height="406" key="GridCell.Tab.2.center" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
-    <state width="1339" height="465" key="GridCell.Tab.2.left" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
+    <state width="1542" height="406" key="GridCell.Tab.2.left" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
-    <state width="1339" height="465" key="GridCell.Tab.2.right" timestamp="1626943798517">
+    <state width="1542" height="406" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
+    <state width="1542" height="406" key="GridCell.Tab.2.right" timestamp="1626947829378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="465" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626943798517" />
+    <state width="1542" height="406" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626947829378" />
     <state x="432" y="156" key="RollbackChangesDialog" timestamp="1626859787426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="432" y="156" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626859787426" />
-    <state x="221" y="178" key="SettingsEditor" timestamp="1626941773788">
+    <state x="221" y="178" key="SettingsEditor" timestamp="1626945760640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="221" y="178" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626941773788" />
+    <state x="221" y="178" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626945760640" />
     <state x="407" y="175" key="VcsDiffUtil.ChangesDialog" timestamp="1626933802384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="407" y="175" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626933802384" />
-    <state x="229" y="130" width="729" height="814" key="find.popup" timestamp="1626941888984">
+    <state x="229" y="130" width="729" height="814" key="find.popup" timestamp="1626947334527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="229" y="130" width="729" height="814" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626941888984" />
+    <state x="229" y="130" width="729" height="814" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626947334527" />
     <state x="75" y="112" key="new project wizard" timestamp="1626916462908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

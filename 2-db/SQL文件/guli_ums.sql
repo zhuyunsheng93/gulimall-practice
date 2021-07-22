@@ -25,13 +25,13 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `ums_growth_history`;
 CREATE TABLE `ums_growth_history` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `user_id` bigint(20) DEFAULT NULL COMMENT 'ç”¨æˆ·id',
-  `create_time` datetime DEFAULT NULL COMMENT 'åˆ›å»ºæ—¶é—´',
-  `count` int(11) DEFAULT NULL COMMENT 'å˜åŠ¨æ•°é‡',
-  `remark` varchar(0) DEFAULT NULL COMMENT 'å¤‡æ³¨',
-  `source_type` tinyint(4) DEFAULT NULL COMMENT 'æ¥æº',
+  `user_id` bigint(20) DEFAULT NULL COMMENT 'ÓÃ»§id',
+  `create_time` datetime DEFAULT NULL COMMENT '´´½¨Ê±¼ä',
+  `count` int(11) DEFAULT NULL COMMENT '±ä¶¯ÊıÁ¿',
+  `remark` varchar(0) DEFAULT NULL COMMENT '±¸×¢',
+  `source_type` tinyint(4) DEFAULT NULL COMMENT 'À´Ô´',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='æˆé•¿ç§¯åˆ†è®°å½•è¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='³É³¤»ı·Ö¼ÇÂ¼±í';
 
 -- ----------------------------
 -- Records of ums_growth_history
@@ -44,12 +44,12 @@ DROP TABLE IF EXISTS `ums_integration_history`;
 CREATE TABLE `ums_integration_history` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
   `user_id` bigint(20) DEFAULT NULL COMMENT 'member_id',
-  `create_time` datetime DEFAULT NULL COMMENT 'åˆ›å»ºæ—¶é—´',
-  `count` int(11) DEFAULT NULL COMMENT 'å˜åŠ¨æ•°é‡',
-  `remark` varchar(255) DEFAULT NULL COMMENT 'å¤‡æ³¨',
-  `source_type` tinyint(4) DEFAULT NULL COMMENT 'æ¥æº',
+  `create_time` datetime DEFAULT NULL COMMENT '´´½¨Ê±¼ä',
+  `count` int(11) DEFAULT NULL COMMENT '±ä¶¯ÊıÁ¿',
+  `remark` varchar(255) DEFAULT NULL COMMENT '±¸×¢',
+  `source_type` tinyint(4) DEFAULT NULL COMMENT 'À´Ô´',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='è´­ç‰©ç§¯åˆ†è®°å½•è¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='¹ºÎï»ı·Ö¼ÇÂ¼±í';
 
 -- ----------------------------
 -- Records of ums_integration_history
@@ -61,31 +61,31 @@ CREATE TABLE `ums_integration_history` (
 DROP TABLE IF EXISTS `ums_user`;
 CREATE TABLE `ums_user` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `level_id` bigint(20) DEFAULT NULL COMMENT 'ï¿½ï¿½Ô±ï¿½È¼ï¿½id',
-  `username` char(64) DEFAULT NULL COMMENT 'ç”¨æˆ·å',
-  `password` varchar(64) DEFAULT NULL COMMENT 'å¯†ç ',
-  `salt` varchar(64) DEFAULT NULL COMMENT 'ç›',
-  `nickname` varchar(64) DEFAULT NULL COMMENT 'æ˜µç§°',
-  `phone` varchar(20) DEFAULT NULL COMMENT 'æ‰‹æœºå·',
-  `email` varchar(64) DEFAULT NULL COMMENT 'é‚®ç®±',
-  `header` varchar(500) DEFAULT NULL COMMENT 'å¤´åƒ',
-  `gender` tinyint(4) DEFAULT NULL COMMENT 'æ€§åˆ«',
-  `birthday` date DEFAULT NULL COMMENT 'ç”Ÿæ—¥',
-  `city` varchar(500) DEFAULT NULL COMMENT 'åŸå¸‚',
-  `job` varchar(255) DEFAULT NULL COMMENT 'èŒä¸š',
-  `sign` varchar(255) DEFAULT NULL COMMENT 'ä¸ªæ€§ç­¾å',
-  `source_type` tinyint(4) DEFAULT NULL COMMENT 'æ¥æº',
-  `integration` int(11) DEFAULT NULL COMMENT 'è´­ç‰©ç§¯åˆ†',
-  `growth` int(11) DEFAULT NULL COMMENT 'èµ é€ç§¯åˆ†',
-  `status` tinyint(4) DEFAULT NULL COMMENT 'çŠ¶æ€',
-  `create_time` datetime DEFAULT NULL COMMENT 'æ³¨å†Œæ—¶é—´',
+  `level_id` bigint(20) DEFAULT NULL COMMENT '??????id',
+  `username` char(64) DEFAULT NULL COMMENT 'ÓÃ»§Ãû',
+  `password` varchar(64) DEFAULT NULL COMMENT 'ÃÜÂë',
+  `salt` varchar(64) DEFAULT NULL COMMENT 'ÑÎ',
+  `nickname` varchar(64) DEFAULT NULL COMMENT 'êÇ³Æ',
+  `phone` varchar(20) DEFAULT NULL COMMENT 'ÊÖ»úºÅ',
+  `email` varchar(64) DEFAULT NULL COMMENT 'ÓÊÏä',
+  `header` varchar(500) DEFAULT NULL COMMENT 'Í·Ïñ',
+  `gender` tinyint(4) DEFAULT NULL COMMENT 'ĞÔ±ğ',
+  `birthday` date DEFAULT NULL COMMENT 'ÉúÈÕ',
+  `city` varchar(500) DEFAULT NULL COMMENT '³ÇÊĞ',
+  `job` varchar(255) DEFAULT NULL COMMENT 'Ö°Òµ',
+  `sign` varchar(255) DEFAULT NULL COMMENT '¸öĞÔÇ©Ãû',
+  `source_type` tinyint(4) DEFAULT NULL COMMENT 'À´Ô´',
+  `integration` int(11) DEFAULT NULL COMMENT '¹ºÎï»ı·Ö',
+  `growth` int(11) DEFAULT NULL COMMENT 'ÔùËÍ»ı·Ö',
+  `status` tinyint(4) DEFAULT NULL COMMENT '×´Ì¬',
+  `create_time` datetime DEFAULT NULL COMMENT '×¢²áÊ±¼ä',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='ç”¨æˆ·è¡¨';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='ÓÃ»§±í';
 
 -- ----------------------------
 -- Records of ums_user
 -- ----------------------------
-INSERT INTO `ums_user` VALUES ('1', '1', 'liuyan', '123456', null, 'æŸ³å²©', '13888888888', '88@qq.com', null, '1', '2020-04-05', 'ä¸Šæµ·', 'æœåŠ¡å‘˜', null, '1', '1000', '2000', '1', '2020-04-05 20:03:25');
+INSERT INTO `ums_user` VALUES ('1', '1', 'liuyan', '123456', null, 'ÁøÑÒ', '13888888888', '88@qq.com', null, '1', '2020-04-05', 'ÉÏº£', '·şÎñÔ±', null, '1', '1000', '2000', '1', '2020-04-05 20:03:25');
 INSERT INTO `ums_user` VALUES ('2', '1', 'xiaolu', 'c2be06f23d08fa4d7a5ef214887ab3c4', '74a85273dfec463386411f35647ee948', null, '18666666666', '66@qq.com', null, null, null, null, null, null, null, '2000', '2000', '1', '2020-04-05 20:24:08');
 
 -- ----------------------------
@@ -95,22 +95,22 @@ DROP TABLE IF EXISTS `ums_user_address`;
 CREATE TABLE `ums_user_address` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
   `user_id` bigint(20) DEFAULT NULL COMMENT 'member_id',
-  `name` varchar(255) DEFAULT NULL COMMENT 'æ”¶è´§äºº',
-  `phone` varchar(64) DEFAULT NULL COMMENT 'ç”µè¯',
-  `post_code` varchar(64) DEFAULT NULL COMMENT 'å³è¾¹',
-  `province` varchar(100) DEFAULT NULL COMMENT 'çœä»½',
-  `city` varchar(100) DEFAULT NULL COMMENT 'åŸå¸‚',
-  `region` varchar(100) DEFAULT NULL COMMENT 'åŒº',
-  `address` varchar(255) DEFAULT NULL COMMENT 'è¯¦ç»†åœ°å€',
-  `default_status` tinyint(1) DEFAULT NULL COMMENT 'æ˜¯å¦é»˜è®¤åœ°å€',
+  `name` varchar(255) DEFAULT NULL COMMENT 'ÊÕ»õÈË',
+  `phone` varchar(64) DEFAULT NULL COMMENT 'µç»°',
+  `post_code` varchar(64) DEFAULT NULL COMMENT 'ÓÒ±ß',
+  `province` varchar(100) DEFAULT NULL COMMENT 'Ê¡·İ',
+  `city` varchar(100) DEFAULT NULL COMMENT '³ÇÊĞ',
+  `region` varchar(100) DEFAULT NULL COMMENT 'Çø',
+  `address` varchar(255) DEFAULT NULL COMMENT 'ÏêÏ¸µØÖ·',
+  `default_status` tinyint(1) DEFAULT NULL COMMENT 'ÊÇ·ñÄ¬ÈÏµØÖ·',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='æ”¶è´§åœ°å€è¡¨';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='ÊÕ»õµØÖ·±í';
 
 -- ----------------------------
 -- Records of ums_user_address
 -- ----------------------------
-INSERT INTO `ums_user_address` VALUES ('1', '2', 'æŸ³å²©', '13812345678', '200122', 'ä¸Šæµ·', 'ä¸Šæµ·å¸‚', 'æ¾æ±ŸåŒº', 'å¤§æ±Ÿå•†å¦6å±‚', '1');
-INSERT INTO `ums_user_address` VALUES ('2', '2', 'é”‹å“¥', '18612345678', '200112', 'åŒ—äº¬', 'åŒ—äº¬å¸‚', 'æ˜Œå¹³åŒº', 'å®ç¦ç§‘æŠ€å›­', '0');
+INSERT INTO `ums_user_address` VALUES ('1', '2', 'ÁøÑÒ', '13812345678', '200122', 'ÉÏº£', 'ÉÏº£ÊĞ', 'ËÉ½­Çø', '´ó½­ÉÌÏÃ6²ã', '1');
+INSERT INTO `ums_user_address` VALUES ('2', '2', '·æ¸ç', '18612345678', '200112', '±±¾©', '±±¾©ÊĞ', '²ıÆ½Çø', 'ºê¸£¿Æ¼¼Ô°', '0');
 
 -- ----------------------------
 -- Table structure for ums_user_collect_shop
@@ -118,13 +118,13 @@ INSERT INTO `ums_user_address` VALUES ('2', '2', 'é”‹å“¥', '18612345678', '20011
 DROP TABLE IF EXISTS `ums_user_collect_shop`;
 CREATE TABLE `ums_user_collect_shop` (
   `id` bigint(20) NOT NULL,
-  `user_id` bigint(20) DEFAULT NULL COMMENT 'ç”¨æˆ·id',
-  `shop_id` bigint(20) DEFAULT NULL COMMENT 'åº—é“ºid',
-  `shop_name` varchar(50) DEFAULT NULL COMMENT 'åº—é“ºå',
-  `shop_logo` varchar(100) DEFAULT NULL COMMENT 'åº—é“ºlogo',
-  `createTime` datetime DEFAULT NULL COMMENT 'å…³æ³¨æ—¶é—´',
+  `user_id` bigint(20) DEFAULT NULL COMMENT 'ÓÃ»§id',
+  `shop_id` bigint(20) DEFAULT NULL COMMENT 'µêÆÌid',
+  `shop_name` varchar(50) DEFAULT NULL COMMENT 'µêÆÌÃû',
+  `shop_logo` varchar(100) DEFAULT NULL COMMENT 'µêÆÌlogo',
+  `createTime` datetime DEFAULT NULL COMMENT '¹Ø×¢Ê±¼ä',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='å…³æ³¨åº—é“ºè¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='¹Ø×¢µêÆÌ±í';
 
 -- ----------------------------
 -- Records of ums_user_collect_shop
@@ -136,13 +136,13 @@ CREATE TABLE `ums_user_collect_shop` (
 DROP TABLE IF EXISTS `ums_user_collect_sku`;
 CREATE TABLE `ums_user_collect_sku` (
   `id` bigint(20) NOT NULL COMMENT 'id',
-  `user_id` bigint(20) DEFAULT NULL COMMENT 'ç”¨æˆ·id',
+  `user_id` bigint(20) DEFAULT NULL COMMENT 'ÓÃ»§id',
   `sku_id` bigint(20) DEFAULT NULL COMMENT 'sku_id',
-  `sku_title` varchar(500) DEFAULT NULL COMMENT 'skuæ ‡é¢˜',
-  `sku_image` varchar(500) DEFAULT NULL COMMENT 'skué»˜è®¤å›¾ç‰‡',
-  `create_time` datetime DEFAULT NULL COMMENT 'åˆ›å»ºæ—¶é—´',
+  `sku_title` varchar(500) DEFAULT NULL COMMENT 'sku±êÌâ',
+  `sku_image` varchar(500) DEFAULT NULL COMMENT 'skuÄ¬ÈÏÍ¼Æ¬',
+  `create_time` datetime DEFAULT NULL COMMENT '´´½¨Ê±¼ä',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='å…³æ³¨å•†å“è¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='¹Ø×¢ÉÌÆ·±í';
 
 -- ----------------------------
 -- Records of ums_user_collect_sku
@@ -154,14 +154,14 @@ CREATE TABLE `ums_user_collect_sku` (
 DROP TABLE IF EXISTS `ums_user_collect_subject`;
 CREATE TABLE `ums_user_collect_subject` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `user_id` int(11) DEFAULT NULL COMMENT 'ç”¨æˆ·id',
-  `subject_id` bigint(20) DEFAULT NULL COMMENT 'æ´»åŠ¨id',
-  `subject_name` varchar(255) DEFAULT NULL COMMENT 'æ´»åŠ¨åç§°',
-  `subject_image` varchar(500) DEFAULT NULL COMMENT 'æ´»åŠ¨é»˜è®¤å›¾ç‰‡',
-  `subject_url` varchar(500) DEFAULT NULL COMMENT 'æ´»åŠ¨é“¾æ¥',
-  `create_time` datetime DEFAULT NULL COMMENT 'å…³æ³¨æ—¶é—´',
+  `user_id` int(11) DEFAULT NULL COMMENT 'ÓÃ»§id',
+  `subject_id` bigint(20) DEFAULT NULL COMMENT '»î¶¯id',
+  `subject_name` varchar(255) DEFAULT NULL COMMENT '»î¶¯Ãû³Æ',
+  `subject_image` varchar(500) DEFAULT NULL COMMENT '»î¶¯Ä¬ÈÏÍ¼Æ¬',
+  `subject_url` varchar(500) DEFAULT NULL COMMENT '»î¶¯Á´½Ó',
+  `create_time` datetime DEFAULT NULL COMMENT '¹Ø×¢Ê±¼ä',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='å…³æ³¨æ´»åŠ¨è¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='¹Ø×¢»î¶¯±í';
 
 -- ----------------------------
 -- Records of ums_user_collect_subject
@@ -173,17 +173,17 @@ CREATE TABLE `ums_user_collect_subject` (
 DROP TABLE IF EXISTS `ums_user_level`;
 CREATE TABLE `ums_user_level` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `name` varchar(100) DEFAULT NULL COMMENT 'ç­‰çº§åç§°',
-  `growth_point` int(11) DEFAULT NULL COMMENT 'ç­‰çº§éœ€è¦çš„æˆé•¿å€¼',
-  `default_status` tinyint(4) DEFAULT NULL COMMENT 'é»˜è®¤ç­‰çº§',
-  `free_freight_point` decimal(18,4) DEFAULT NULL COMMENT 'å…è¿è´¹æ ‡å‡†',
-  `comment_growth_point` int(11) DEFAULT NULL COMMENT 'æ¯æ¬¡è¯„ä»·è·å–çš„æˆé•¿å€¼',
-  `priviledge_free_freight` tinyint(4) DEFAULT NULL COMMENT 'æ˜¯å¦æœ‰å…é‚®ç‰¹æƒ',
-  `priviledge_member_price` tinyint(4) DEFAULT NULL COMMENT 'æ˜¯å¦æœ‰ä¼šå‘˜ä»·æ ¼ç‰¹æƒ',
-  `priviledge_birthday` tinyint(4) DEFAULT NULL COMMENT 'æ˜¯å¦æœ‰ç”Ÿæ—¥ç‰¹æƒ',
-  `remark` varchar(255) DEFAULT NULL COMMENT 'å¤‡æ³¨',
+  `name` varchar(100) DEFAULT NULL COMMENT 'µÈ¼¶Ãû³Æ',
+  `growth_point` int(11) DEFAULT NULL COMMENT 'µÈ¼¶ĞèÒªµÄ³É³¤Öµ',
+  `default_status` tinyint(4) DEFAULT NULL COMMENT 'Ä¬ÈÏµÈ¼¶',
+  `free_freight_point` decimal(18,4) DEFAULT NULL COMMENT 'ÃâÔË·Ñ±ê×¼',
+  `comment_growth_point` int(11) DEFAULT NULL COMMENT 'Ã¿´ÎÆÀ¼Û»ñÈ¡µÄ³É³¤Öµ',
+  `priviledge_free_freight` tinyint(4) DEFAULT NULL COMMENT 'ÊÇ·ñÓĞÃâÓÊÌØÈ¨',
+  `priviledge_member_price` tinyint(4) DEFAULT NULL COMMENT 'ÊÇ·ñÓĞ»áÔ±¼Û¸ñÌØÈ¨',
+  `priviledge_birthday` tinyint(4) DEFAULT NULL COMMENT 'ÊÇ·ñÓĞÉúÈÕÌØÈ¨',
+  `remark` varchar(255) DEFAULT NULL COMMENT '±¸×¢',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='ä¼šå‘˜ç­‰çº§è¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='»áÔ±µÈ¼¶±í';
 
 -- ----------------------------
 -- Records of ums_user_level
@@ -195,13 +195,13 @@ CREATE TABLE `ums_user_level` (
 DROP TABLE IF EXISTS `ums_user_login_log`;
 CREATE TABLE `ums_user_login_log` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `user_id` bigint(20) DEFAULT NULL COMMENT 'ç”¨æˆ·id',
-  `create_time` datetime DEFAULT NULL COMMENT 'ç™»é™†æ—¶é—´',
-  `ip` varchar(64) DEFAULT NULL COMMENT 'ç™»å½•ip',
-  `city` varchar(64) DEFAULT NULL COMMENT 'ç™»å½•åŸå¸‚',
-  `type` tinyint(1) DEFAULT NULL COMMENT 'ç™»å½•ç±»å‹ã€0-webï¼Œ1-ç§»åŠ¨ã€‘',
+  `user_id` bigint(20) DEFAULT NULL COMMENT 'ÓÃ»§id',
+  `create_time` datetime DEFAULT NULL COMMENT 'µÇÂ½Ê±¼ä',
+  `ip` varchar(64) DEFAULT NULL COMMENT 'µÇÂ¼ip',
+  `city` varchar(64) DEFAULT NULL COMMENT 'µÇÂ¼³ÇÊĞ',
+  `type` tinyint(1) DEFAULT NULL COMMENT 'µÇÂ¼ÀàĞÍ¡¾0-web£¬1-ÒÆ¶¯¡¿',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='ç”¨æˆ·ç™»é™†è®°å½•è¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='ÓÃ»§µÇÂ½¼ÇÂ¼±í';
 
 -- ----------------------------
 -- Records of ums_user_login_log
@@ -213,22 +213,22 @@ CREATE TABLE `ums_user_login_log` (
 DROP TABLE IF EXISTS `ums_user_statistics`;
 CREATE TABLE `ums_user_statistics` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id',
-  `user_id` bigint(20) DEFAULT NULL COMMENT 'ç”¨æˆ·id',
-  `consume_amount` decimal(18,4) DEFAULT NULL COMMENT 'ç´¯è®¡æ¶ˆè´¹é‡‘é¢',
-  `coupon_amount` decimal(18,4) DEFAULT NULL COMMENT 'ç´¯è®¡ä¼˜æƒ é‡‘é¢',
-  `order_count` int(11) DEFAULT NULL COMMENT 'è®¢å•æ•°é‡',
-  `coupon_count` int(11) DEFAULT NULL COMMENT 'ä¼˜æƒ åˆ¸æ•°é‡',
-  `comment_count` int(11) DEFAULT NULL COMMENT 'è¯„ä»·æ•°',
-  `return_order_count` int(11) DEFAULT NULL COMMENT 'é€€è´§æ•°é‡',
-  `login_count` int(11) DEFAULT NULL COMMENT 'ç™»å½•æ¬¡æ•°',
-  `attend_count` int(11) DEFAULT NULL COMMENT 'å…³æ³¨æ•°é‡',
-  `fans_count` int(11) DEFAULT NULL COMMENT 'ç²‰ä¸æ•°é‡',
-  `collect_product_count` int(11) DEFAULT NULL COMMENT 'æ”¶è—çš„å•†å“æ•°é‡',
-  `collect_subject_count` int(11) DEFAULT NULL COMMENT 'æ”¶è—çš„ä¸“é¢˜æ´»åŠ¨æ•°é‡',
-  `collect_comment_count` int(11) DEFAULT NULL COMMENT 'æ”¶è—çš„è¯„è®ºæ•°é‡',
-  `invite_friend_count` int(11) DEFAULT NULL COMMENT 'é‚€è¯·çš„æœ‹å‹æ•°é‡',
+  `user_id` bigint(20) DEFAULT NULL COMMENT 'ÓÃ»§id',
+  `consume_amount` decimal(18,4) DEFAULT NULL COMMENT 'ÀÛ¼ÆÏû·Ñ½ğ¶î',
+  `coupon_amount` decimal(18,4) DEFAULT NULL COMMENT 'ÀÛ¼ÆÓÅ»İ½ğ¶î',
+  `order_count` int(11) DEFAULT NULL COMMENT '¶©µ¥ÊıÁ¿',
+  `coupon_count` int(11) DEFAULT NULL COMMENT 'ÓÅ»İÈ¯ÊıÁ¿',
+  `comment_count` int(11) DEFAULT NULL COMMENT 'ÆÀ¼ÛÊı',
+  `return_order_count` int(11) DEFAULT NULL COMMENT 'ÍË»õÊıÁ¿',
+  `login_count` int(11) DEFAULT NULL COMMENT 'µÇÂ¼´ÎÊı',
+  `attend_count` int(11) DEFAULT NULL COMMENT '¹Ø×¢ÊıÁ¿',
+  `fans_count` int(11) DEFAULT NULL COMMENT '·ÛË¿ÊıÁ¿',
+  `collect_product_count` int(11) DEFAULT NULL COMMENT 'ÊÕ²ØµÄÉÌÆ·ÊıÁ¿',
+  `collect_subject_count` int(11) DEFAULT NULL COMMENT 'ÊÕ²ØµÄ×¨Ìâ»î¶¯ÊıÁ¿',
+  `collect_comment_count` int(11) DEFAULT NULL COMMENT 'ÊÕ²ØµÄÆÀÂÛÊıÁ¿',
+  `invite_friend_count` int(11) DEFAULT NULL COMMENT 'ÑûÇëµÄÅóÓÑÊıÁ¿',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='ç»Ÿè®¡ä¿¡æ¯è¡¨';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Í³¼ÆĞÅÏ¢±í';
 
 -- ----------------------------
 -- Records of ums_user_statistics
