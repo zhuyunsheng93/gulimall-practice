@@ -11,8 +11,8 @@
 	<groupId>com.atguigu.gulimall</groupId>
 	<artifactId>gulimall-coupon</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>gulimall-coupon</name>
+	<description>优惠服务</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

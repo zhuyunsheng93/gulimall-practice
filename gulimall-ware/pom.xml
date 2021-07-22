@@ -11,8 +11,8 @@
 	<groupId>com.atguigu.gulimall</groupId>
 	<artifactId>gulimall-ware</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>gulimall-ware</name>
+	<description>仓储服务</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
