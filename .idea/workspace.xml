@@ -19,402 +19,200 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8e74fb-e998-4323-98bd-635007d3079c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_1_tmp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_48.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/utils/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/xss/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/xss/SQLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponSpuCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/CouponSpuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/HomeAdvController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/HomeSubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/HomeSubjectSpuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/MemberPriceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillPromotionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillSessionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillSkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SeckillSkuNoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SkuBoundsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SkuFullReductionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/controller/SkuLadderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponSpuCategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/CouponSpuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/HomeAdvDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/HomeSubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/HomeSubjectSpuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/MemberPriceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillPromotionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillSessionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillSkuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SeckillSkuNoticeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SkuBoundsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SkuFullReductionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/dao/SkuLadderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponSpuCategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/CouponSpuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/HomeAdvEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/HomeSubjectEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/HomeSubjectSpuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/MemberPriceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillPromotionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillSessionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillSkuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SeckillSkuNoticeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SkuBoundsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SkuFullReductionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/entity/SkuLadderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponSpuCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/CouponSpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/HomeAdvService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/HomeSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/HomeSubjectSpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/MemberPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillPromotionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillSessionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillSkuNoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SeckillSkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SkuBoundsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SkuFullReductionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/SkuLadderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponSpuCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/CouponSpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/HomeAdvServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/HomeSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/HomeSubjectSpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/MemberPriceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillPromotionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillSessionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillSkuNoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SeckillSkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SkuBoundsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SkuFullReductionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/service/impl/SkuLadderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponHistoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponSpuCategoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/CouponSpuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/HomeAdvDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/HomeSubjectDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/HomeSubjectSpuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/MemberPriceDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillPromotionDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillSessionDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillSkuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SeckillSkuNoticeDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SkuBoundsDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SkuFullReductionDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/mapper/coupon/SkuLadderDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/coupon-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/coupon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/couponhistory-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/couponhistory.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/couponspu-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/couponspu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/couponspucategory-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/couponspucategory.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/homeadv-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/homeadv.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/homesubject-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/homesubject.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/homesubjectspu-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/homesubjectspu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/memberprice-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/memberprice.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillpromotion-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillpromotion.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillsession-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillsession.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillsku-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillsku.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillskunotice-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/seckillskunotice.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/skubounds-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/skubounds.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/skufullreduction-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/skufullreduction.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/skuladder-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/src/views/modules/coupon/skuladder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/GrowthHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/IntegrationHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserAddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserCollectShopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserCollectSkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserCollectSubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserLevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserLoginLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/UserStatisticsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/GrowthHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/IntegrationHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserAddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserCollectShopDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserCollectSkuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserCollectSubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserLevelDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserLoginLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/dao/UserStatisticsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/GrowthHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/IntegrationHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserAddressEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserCollectShopEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserCollectSkuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserCollectSubjectEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserLevelEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserLoginLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/entity/UserStatisticsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/GrowthHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/IntegrationHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserCollectShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserCollectSkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserCollectSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserLevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/UserStatisticsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/GrowthHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/IntegrationHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserAddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserCollectShopServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserCollectSkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserCollectSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserLevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserLoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/UserStatisticsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/GrowthHistoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/IntegrationHistoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserAddressDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserCollectShopDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserCollectSkuDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserCollectSubjectDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserLevelDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserLoginLogDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/mapper/member/UserStatisticsDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderOperateHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderReturnApplyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderReturnReasonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderSettingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/PaymentInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/RefundInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderOperateHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderReturnApplyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderReturnReasonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/OrderSettingDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/PaymentInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/dao/RefundInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderItemEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderOperateHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderReturnApplyEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderReturnReasonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/OrderSettingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/PaymentInfoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/entity/RefundInfoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderOperateHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderReturnApplyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderReturnReasonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderSettingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/PaymentInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/RefundInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderOperateHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderReturnApplyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderReturnReasonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderSettingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/PaymentInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/RefundInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/AttrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/AttrGroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/CategoryBrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/CommentReplayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SkuAttrValueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SkuImagesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SpuAttrValueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SpuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/SpuDescController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrGroupDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/BrandDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/CategoryBrandDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/CommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/CommentReplayDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SkuAttrValueDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SkuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SkuImagesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuAttrValueDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/SpuDescDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/AttrEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/AttrGroupEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/BrandEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/CategoryBrandEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/CategoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/CommentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/CommentReplayEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SkuAttrValueEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SkuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SkuImagesEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SpuAttrValueEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SpuDescEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/entity/SpuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/CategoryBrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/CommentReplayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuAttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuImagesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuAttrValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuDescService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrGroupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/CategoryBrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/CommentReplayServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuImagesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuDescServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/PurchaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/PurchaseDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareOrderTaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareOrderTaskDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareSkuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/PurchaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/PurchaseDetailDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareOrderTaskDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareOrderTaskDetailDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/dao/WareSkuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/PurchaseDetailEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/PurchaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareInfoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareOrderTaskDetailEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareOrderTaskEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/entity/WareSkuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/PurchaseDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/PurchaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareOrderTaskDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareOrderTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareSkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/PurchaseDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/PurchaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareOrderTaskDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareOrderTaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareSkuServiceImpl.java" afterDir="false" />
+    <list default="true" id="3c8e74fb-e998-4323-98bd-635007d3079c" name="Default Changelist" comment="基础增删改查创建">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_config_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gulimall-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulimall-practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_unknown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/gulimall/common/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/GulimallGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/ware/GulimallCouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/java/com/atguigu/gulimall/coupon/GulimallCouponApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/test/java/com/atguigu/gulimall/ware/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/java/com/atguigu/gulimall/gateway/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/ware/GulimallMemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/GulimallMemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/src/test/java/com/atguigu/gulimall/ware/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/ware/GulimallOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/GulimallOrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/test/java/com/atguigu/gulimall/ware/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/GulimallProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/GulimallProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/ware/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/target/classes/com/atguigu/gulimall/product/GulimallProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/atguigu/gulimall/product/GulimallProductApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/target/classes/com/atguigu/gulimall/product/GulimallProductApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-third-party/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-third-party/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/GulimallWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/GulimallWareApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/test/java/com/atguigu/gulimall/ware/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/test/java/com/atguigu/gulimall/order/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/template/Controller.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/target/classes/generator.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/Controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/target/classes/template/Controller.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/mapper/MySQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/mapper/OracleGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/mapper/PostgreSQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/mapper/SQLServerGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/css/all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/js/generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/libs/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/jqgrid/grid.locale-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/static/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/Controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/Dao.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/Dao.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/Entity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/MongoChildrenEntity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/MongoEntity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/Service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/ServiceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/add-or-update.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/template/menu.sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/views/generator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/target/classes/views/main.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -565,14 +363,14 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.GulimallProductApplication" />
-      <item itemvalue="Spring Boot.RenrenApplication" />
-      <item itemvalue="Spring Boot.RenrenApplication (1)" />
       <item itemvalue="Spring Boot.GulimallMemberApplication" />
       <item itemvalue="Spring Boot.GulimallWareApplication" />
       <item itemvalue="Spring Boot.GulimallGatewayApplication" />
       <item itemvalue="Spring Boot.GulimallOrderApplication" />
       <item itemvalue="Spring Boot.GulimallCouponApplication" />
       <item itemvalue="Spring Boot.GulimallThirdPartyApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -598,8 +396,17 @@
       <workItem from="1626856884353" duration="967000" />
       <workItem from="1626857880056" duration="1364000" />
       <workItem from="1626859360175" duration="6082000" />
-      <workItem from="1626917537869" duration="11523000" />
+      <workItem from="1626917537869" duration="13136000" />
+      <workItem from="1626938061332" duration="2265000" />
     </task>
+    <task id="LOCAL-00001" summary="基础增删改查创建">
+      <created>1626933654005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626933654005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,6 +426,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="基础增删改查创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础增删改查创建" />
   </component>
   <component name="WindowStateProjectService">
     <state x="180" y="112" key="#Project_Structure" timestamp="1626918406046">
@@ -641,58 +450,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="390" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626918977232" />
+    <state x="100" y="100" width="1200" height="847" key="DiffContextDialog" timestamp="1626934712928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1200" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626934712928" />
     <state x="480" y="227" key="FileChooserDialogImpl" timestamp="1626918736789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="480" y="227" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626918736789" />
-    <state width="1339" height="357" key="GridCell.Tab.0.bottom" timestamp="1626926102642">
+    <state width="1339" height="282" key="GridCell.Tab.0.bottom" timestamp="1626940104265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102642" />
-    <state width="1339" height="357" key="GridCell.Tab.0.center" timestamp="1626926102642">
+    <state width="1339" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104265" />
+    <state width="1339" height="282" key="GridCell.Tab.0.center" timestamp="1626940104264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102642" />
-    <state width="1339" height="357" key="GridCell.Tab.0.left" timestamp="1626926102642">
+    <state width="1339" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104264" />
+    <state width="1339" height="282" key="GridCell.Tab.0.left" timestamp="1626940104264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102642" />
-    <state width="1339" height="357" key="GridCell.Tab.0.right" timestamp="1626926102642">
+    <state width="1339" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104264" />
+    <state width="1339" height="282" key="GridCell.Tab.0.right" timestamp="1626940104264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102642" />
-    <state width="1339" height="357" key="GridCell.Tab.1.bottom" timestamp="1626926102512">
+    <state width="1339" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104264" />
+    <state width="1339" height="282" key="GridCell.Tab.1.bottom" timestamp="1626940104265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
-    <state width="1339" height="357" key="GridCell.Tab.1.center" timestamp="1626926102512">
+    <state width="1339" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104265" />
+    <state width="1339" height="282" key="GridCell.Tab.1.center" timestamp="1626940104265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
-    <state width="1339" height="357" key="GridCell.Tab.1.left" timestamp="1626926102512">
+    <state width="1339" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104265" />
+    <state width="1339" height="282" key="GridCell.Tab.1.left" timestamp="1626940104265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
-    <state width="1339" height="357" key="GridCell.Tab.1.right" timestamp="1626926102512">
+    <state width="1339" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104265" />
+    <state width="1339" height="282" key="GridCell.Tab.1.right" timestamp="1626940104265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
-    <state width="1339" height="357" key="GridCell.Tab.2.bottom" timestamp="1626926102512">
+    <state width="1339" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626940104265" />
+    <state width="1339" height="223" key="GridCell.Tab.2.bottom" timestamp="1626940075963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
-    <state width="1339" height="357" key="GridCell.Tab.2.center" timestamp="1626926102512">
+    <state width="1339" height="223" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626940075963" />
+    <state width="1339" height="223" key="GridCell.Tab.2.center" timestamp="1626940075963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
-    <state width="1339" height="357" key="GridCell.Tab.2.left" timestamp="1626926102512">
+    <state width="1339" height="223" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626940075963" />
+    <state width="1339" height="223" key="GridCell.Tab.2.left" timestamp="1626940075963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
-    <state width="1339" height="357" key="GridCell.Tab.2.right" timestamp="1626926102512">
+    <state width="1339" height="223" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626940075963" />
+    <state width="1339" height="223" key="GridCell.Tab.2.right" timestamp="1626940075963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1339" height="357" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626926102512" />
+    <state width="1339" height="223" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626940075963" />
     <state x="432" y="156" key="RollbackChangesDialog" timestamp="1626859787426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -701,10 +514,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="140" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1626918847943" />
-    <state x="229" y="130" width="637" height="650" key="find.popup" timestamp="1626929360198">
+    <state x="407" y="175" key="VcsDiffUtil.ChangesDialog" timestamp="1626933802384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="229" y="130" width="637" height="650" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626929360198" />
+    <state x="407" y="175" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626933802384" />
+    <state x="229" y="130" width="729" height="814" key="find.popup" timestamp="1626940448080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="229" y="130" width="729" height="814" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626940448080" />
     <state x="75" y="112" key="new project wizard" timestamp="1626916462908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

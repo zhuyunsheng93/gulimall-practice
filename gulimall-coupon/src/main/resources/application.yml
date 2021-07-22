@@ -15,7 +15,7 @@
 #      max-pool-prepared-statement-per-connection-size: 20
 #      time-between-eviction-runs-millis: 60000
 #      min-evictable-idle-time-millis: 300000
-#      #OracleÐèÒª´ò¿ª×¢ÊÍ
+#      #Oracleï¿½ï¿½Òªï¿½ï¿½×¢ï¿½ï¿½
 #      #validation-query: SELECT 1 FROM DUAL
 #      test-while-idle: true
 #      test-on-borrow: false
@@ -45,4 +45,5 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
-
+server:
+  port: 7000
