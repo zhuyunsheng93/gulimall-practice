@@ -9,13 +9,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-third-party/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-coupon/pom.xml" />
-        <option value="$PROJECT_DIR$/gulimall-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-member/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-order/pom.xml" />
-        <option value="$PROJECT_DIR$/gulimall-product/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-ware/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>
