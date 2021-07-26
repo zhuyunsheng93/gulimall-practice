@@ -33,12 +33,12 @@ import com.atguigu.common.utils.R;
 @RestController
 @RequestMapping("coupon/coupon")
 @Slf4j
-@ConfigurationProperties(prefix = "coupon.user")
 @Data
 public class CouponController {
     @Autowired
     private CouponService couponService;
     private String name;
+    @Value("${coupon.user.age}")
     private Integer age;
 
     /**
