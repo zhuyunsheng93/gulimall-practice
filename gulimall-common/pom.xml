@@ -2,22 +2,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <artifactId>gulimall-practice</artifactId>
         <groupId>com.atguigu.gulimall</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <groupId>com.atguigu.gulimall</groupId>
     <artifactId>gulimall-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall-common</name>
     <description>公用服务</description>
+
     <properties>
         <java.version>1.8</java.version>
         <druid.version>1.1.13</druid.version>
     </properties>
-    <dependencies>
 
+    <dependencies>
         <!-- MyBatis-Plus-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -57,7 +60,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <version>2.1.8.RELEASE</version>
-
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
