@@ -4,8 +4,12 @@ import java.util.Arrays;
 import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,12 +29,27 @@ import com.atguigu.common.utils.R;
  * @email zhuyunsheng93@gmail.com
  * @date 2021-07-22 11:55:18
  */
+@RefreshScope
 @RestController
 @RequestMapping("coupon/coupon")
 @Slf4j
+@ConfigurationProperties(prefix = "coupon.user")
+@Data
 public class CouponController {
     @Autowired
     private CouponService couponService;
+    private String name;
+    private Integer age;
+
+    /**
+     * 列表
+     */
+    @RequestMapping("/test")
+    //@RequiresPermissions("coupon:coupon:list")
+    public R test(@RequestParam Map<String, Object> params) {
+        PageUtils page = couponService.queryPage(params);
+        return R.ok().put("name", name).put("age",age);
+    }
 
     /**
      * 列表
