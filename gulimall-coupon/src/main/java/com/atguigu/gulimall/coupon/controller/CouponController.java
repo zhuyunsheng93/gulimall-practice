@@ -1,7 +1,13 @@
 package com.atguigu.gulimall.coupon.controller;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
 import lombok.Data;
@@ -40,7 +46,40 @@ public class CouponController {
     private String name;
     @Value("${coupon.user.age}")
     private Integer age;
+    public List<Integer> test() {
+        User user1 = new User("朱运升",1);
+        User user2 = new User(null,null);
+        User user3 = null;
+        List<User> users = new ArrayList<>();
+        users.add(user1);
+        users.add(user2);
+        users.add(user3);
+        return users.stream().map(User::getAge).collect(Collectors.toList());
+    }
+    class User{
+        private String name;
+        private Integer age;
+        public User(String name,Integer age){
+            this.name = name;
+            this.age = age;
+        }
 
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public Integer getAge() {
+            return age;
+        }
+
+        public void setAge(Integer age) {
+            this.age = age;
+        }
+    }
     /**
      * 列表
      */
@@ -48,7 +87,9 @@ public class CouponController {
     //@RequiresPermissions("coupon:coupon:list")
     public R test(@RequestParam Map<String, Object> params) {
         PageUtils page = couponService.queryPage(params);
-        return R.ok().put("name", name).put("age",age);
+        LocalDate date = LocalDate.now().minusDays(1 - 1);
+        LocalDateTime poolDate = LocalDateTime.of(date, LocalTime.MIN);
+        return R.ok().put("name", name).put("age",age).put("test","").put("date",poolDate);
     }
 
     /**
