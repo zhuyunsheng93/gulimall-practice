@@ -11,7 +11,7 @@
     <groupId>com.zhuyunsheng</groupId>
     <artifactId>nacospractice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacospractice</name>
+    <name>nacos-practice</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
