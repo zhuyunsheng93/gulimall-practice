@@ -25,5 +25,7 @@
         <result property="createTime" column="create_time"/>
     </resultMap>
 
-
+<select id="findMember" resultType="com.atguigu.gulimall.member.entity.MemberEntity">
+    select id from ums_member
+</select>
 </mapper>

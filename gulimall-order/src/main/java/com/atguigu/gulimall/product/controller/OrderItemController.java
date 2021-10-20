@@ -11,32 +11,34 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.atguigu.gulimall.product.entity.AttrEntity;
-import com.atguigu.gulimall.product.service.AttrService;
+import com.atguigu.gulimall.product.entity.OrderItemEntity;
+import com.atguigu.gulimall.product.service.OrderItemService;
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.R;
 
 
+
 /**
- * 商品属性
+ * 订单项信息
  *
  * @author zhuyunsheng
  * @email zhuyunsheng93@gmail.com
- * @date 2021-07-22 10:51:09
+ * @date 2021-07-22 11:08:31
  */
 @RestController
-@RequestMapping("product/attr")
-public class AttrController {
+@RequestMapping("order/orderitem")
+public class OrderItemController {
     @Autowired
-    private AttrService attrService;
+    private OrderItemService orderItemService;
 
     /**
      * 列表
      */
     @RequestMapping("/list")
-    //@RequiresPermissions("product:attr:list")
-    public R list(@RequestParam Map<String, Object> params) {
-        PageUtils page = attrService.queryPage(params);
+    //@RequiresPermissions("order:orderitem:list")
+    public R list(@RequestParam Map<String, Object> params){
+        PageUtils page = orderItemService.queryPage(params);
+
         return R.ok().put("page", page);
     }
 
@@ -45,19 +47,21 @@ public class AttrController {
      * 信息
      */
     @RequestMapping("/info/{id}")
-    //@RequiresPermissions("product:attr:info")
-    public R info(@PathVariable("id") Long id) {
-        AttrEntity attr = attrService.getById(id);
-        return R.ok().put("attr", attr);
+    //@RequiresPermissions("order:orderitem:info")
+    public R info(@PathVariable("id") Long id){
+		OrderItemEntity orderItem = orderItemService.getById(id);
+
+        return R.ok().put("orderItem", orderItem);
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    //@RequiresPermissions("product:attr:save")
-    public R save(@RequestBody AttrEntity attr) {
-        attrService.save(attr);
+    //@RequiresPermissions("order:orderitem:save")
+    public R save(@RequestBody OrderItemEntity orderItem){
+		orderItemService.save(orderItem);
+
         return R.ok();
     }
 
@@ -65,9 +69,10 @@ public class AttrController {
      * 修改
      */
     @RequestMapping("/update")
-    //@RequiresPermissions("product:attr:update")
-    public R update(@RequestBody AttrEntity attr) {
-        attrService.updateById(attr);
+    //@RequiresPermissions("order:orderitem:update")
+    public R update(@RequestBody OrderItemEntity orderItem){
+		orderItemService.updateById(orderItem);
+
         return R.ok();
     }
 
@@ -75,9 +80,10 @@ public class AttrController {
      * 删除
      */
     @RequestMapping("/delete")
-    //@RequiresPermissions("product:attr:delete")
-    public R delete(@RequestBody Long[] ids) {
-        attrService.removeByIds(Arrays.asList(ids));
+    //@RequiresPermissions("order:orderitem:delete")
+    public R delete(@RequestBody Long[] ids){
+		orderItemService.removeByIds(Arrays.asList(ids));
+
         return R.ok();
     }
 
