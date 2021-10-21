@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 
 
 /**
- * @author ZSY
+ * @author zhuyunsheng
  */
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity> implements CategoryService {

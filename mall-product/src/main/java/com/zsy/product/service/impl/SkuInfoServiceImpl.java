@@ -33,7 +33,7 @@ import org.springframework.util.StringUtils;
 import javax.annotation.Resource;
 
 /**
- * @author ZSY
+ * @author zhuyunsheng
  */
 @Service("skuInfoService")
 public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> implements SkuInfoService {

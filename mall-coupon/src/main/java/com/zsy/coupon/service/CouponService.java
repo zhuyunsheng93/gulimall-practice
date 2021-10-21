@@ -10,7 +10,7 @@ import java.util.Map;
  * 优惠券信息
  *
  * @author zsy
- * @email 594983498@qq.com
+ * @email 1917222727@qq.com
  * @date 2019-10-08 09:36:40
  */
 public interface CouponService extends IService<CouponEntity> {

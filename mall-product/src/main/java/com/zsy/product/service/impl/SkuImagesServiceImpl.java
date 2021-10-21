@@ -16,7 +16,7 @@ import com.zsy.product.entity.SkuImagesEntity;
 import com.zsy.product.service.SkuImagesService;
 
 /**
- * @author ZSY
+ * @author zhuyunsheng
  */
 @Service("skuImagesService")
 public class SkuImagesServiceImpl extends ServiceImpl<SkuImagesDao, SkuImagesEntity> implements SkuImagesService {

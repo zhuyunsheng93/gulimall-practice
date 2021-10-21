@@ -12,7 +12,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
  * 自定义校验注解 声明可以取那些值
- * @author ZSY
+ * @author zhuyunsheng
  */
 @Documented
 @Constraint(validatedBy = {ListValueConstraintValidator.class})

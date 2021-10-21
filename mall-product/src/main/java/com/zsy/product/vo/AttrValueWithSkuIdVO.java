@@ -3,7 +3,7 @@ package com.zsy.product.vo;
 import lombok.Data;
 
 /**
- * @author ZSY
+ * @author zhuyunsheng
  * @createTime: 2020-06-19 11:21
  **/
 @Data

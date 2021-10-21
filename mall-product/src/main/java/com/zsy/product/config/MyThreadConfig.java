@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author ZSY
+ * @author zhuyunsheng
  */
 @EnableConfigurationProperties(ThreadPoolConfigProperties.class)
 @Configuration

@@ -24,7 +24,7 @@ import com.zsy.product.service.AttrGroupService;
 import org.springframework.util.StringUtils;
 
 /**
- * @author ZSY
+ * @author zhuyunsheng
  */
 @Service("attrGroupService")
 public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEntity> implements AttrGroupService {

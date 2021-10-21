@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * @Description: 社交用户信息
  * @author zsy
- * @email 594983498@qq.com
+ * @email 1917222727@qq.com
  * @createTime: 2021-04-24 11:04
  **/
 @Data

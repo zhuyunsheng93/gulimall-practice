@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author ZSY
+ * @author zhuyunsheng
  */
 @ConfigurationProperties(prefix = "gulimall.thread")
 // @Component

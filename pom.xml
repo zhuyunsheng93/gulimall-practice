@@ -5,28 +5,27 @@
     <groupId>com.zsy</groupId>
     <artifactId>guli-mall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>guli-mall</name>
-    <description>聚合服务</description>
     <packaging>pom</packaging>
+
     <modules>
-        <module>mall-auth-server</module>
-        <module>mall-cart</module>
-        <module>mall-common</module>
         <module>mall-coupon</module>
-        <module>mall-gateway</module>
         <module>mall-member</module>
         <module>mall-order</module>
         <module>mall-product</module>
-        <module>mall-search</module>
-        <module>mall-sso-client-test</module>
-        <module>mall-sso-server-test</module>
-        <module>mall-third-party</module>
         <module>mall-ware</module>
+        <module>mall-common</module>
+        <module>mall-gateway</module>
         <module>renren-fast</module>
-        <module>nacos-provider</module>
-        <module>nacos-consumer</module>
         <module>renren-generator</module>
+        <module>mall-third-party</module>
+        <module>mall-search</module>
+        <module>mall-auth-server</module>
+        <module>mall-cart</module>
+        <module>nacos-consumer</module>
+        <module>nacos-provider</module>
     </modules>
+    <name>guli-mall</name>
+    <description>parent</description>
 
     <!--  这里的属性会被子模块继承  -->
     <properties>

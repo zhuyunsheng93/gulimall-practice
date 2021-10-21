@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * @Description:
- * @author: zhangshuaiyin
+ * @author: zhuyunsheng
  * @createTime: 2021-04-22 09:39
  **/
 @ConfigurationProperties(prefix = "spring.cloud.alicloud.sms")
