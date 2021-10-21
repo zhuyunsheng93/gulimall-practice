@@ -21,5 +21,7 @@
         <module>gulimall-third-party</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
+        <module>nacos-provider</module>
+        <module>nacos-consumer</module>
     </modules>
 </project>
