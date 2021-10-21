@@ -1,6 +1,6 @@
 2021-07-21 15:29:30,912 ERROR read cluster conf fail
 
-java.io.FileNotFoundException: E:\practicesource\gulimall-practice\nacos\nacos-server-1.1.3\nacos\conf\cluster.conf (系统找不到指定的文件。)
+java.io.FileNotFoundException: E:\practicesource\guli-mall\nacos\nacos-server-1.1.3\nacos\conf\cluster.conf (系统找不到指定的文件。)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
@@ -21,7 +21,7 @@ java.io.FileNotFoundException: E:\practicesource\gulimall-practice\nacos\nacos-s
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
 	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:593)
-2021-07-21 15:29:30,920 INFO Starting Nacos v1.1.3 on DESKTOP-BA4PNJN with PID 32848 (E:\practicesource\gulimall-practice\nacos\nacos-server-1.1.3\nacos\target\nacos-server.jar started by pc in E:\practicesource\gulimall-practice\nacos\nacos-server-1.1.3\nacos\bin)
+2021-07-21 15:29:30,920 INFO Starting Nacos v1.1.3 on DESKTOP-BA4PNJN with PID 32848 (E:\practicesource\guli-mall\nacos\nacos-server-1.1.3\nacos\target\nacos-server.jar started by pc in E:\practicesource\guli-mall\nacos\nacos-server-1.1.3\nacos\bin)
 
 2021-07-21 15:29:30,921 INFO No active profile set, falling back to default profiles: default
 
@@ -117,7 +117,7 @@ java.io.FileNotFoundException: E:\practicesource\gulimall-practice\nacos\nacos-s
 
 2021-07-21 15:30:03,961 INFO Nacos is starting...
 
-2021-07-21 15:30:04,733 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
+2021-07-21 15:30:04,733 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
 
 2021-07-21 15:30:04,735 INFO Stopping service [Tomcat]
 
@@ -472,13 +472,13 @@ java.io.FileNotFoundException: E:\practicesource\gulimall-practice\nacos\nacos-s
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
 
-2021-07-21 15:30:04,779 INFO Nacos Log files: E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/logs/
+2021-07-21 15:30:04,779 INFO Nacos Log files: E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/logs/
 
-2021-07-21 15:30:04,779 INFO Nacos Conf files: E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/conf/
+2021-07-21 15:30:04,779 INFO Nacos Conf files: E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/conf/
 
-2021-07-21 15:30:04,779 INFO Nacos Data files: E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/data/
+2021-07-21 15:30:04,779 INFO Nacos Data files: E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/data/
 
-2021-07-21 15:30:04,779 ERROR Nacos failed to start, please see E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/logs/nacos.log for more details.
+2021-07-21 15:30:04,779 ERROR Nacos failed to start, please see E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/logs/nacos.log for more details.
 
 2021-07-21 15:30:04,785 INFO 
 
@@ -486,7 +486,7 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 
 2021-07-21 15:30:04,787 ERROR Application run failed
 
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
@@ -515,7 +515,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
 	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:593)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/E:/practicesource/gulimall-practice/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/E:/practicesource/guli-mall/nacos/nacos-server-1.1.3/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.3.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
