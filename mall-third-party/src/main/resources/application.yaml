@@ -10,11 +10,11 @@ spring:
         skin: 1
         sign: 175622
         appcode: b0563c23aff8428c97a54d4f7f9e28e5
-#      access-key: LTAI4FwvfjSycd1APnuG9bjj
-#      secret-key: O6xaxyiWfSIitcOkSuK27ju4hXT5Hl
-#      oss:
-#        endpoint: oss-cn-beijing.aliyuncs.com
-#        bucket: gulimall-hello
+      access-key: LTAI5tB9cFtTDGTfj2hnaZBL
+      secret-key: qoYbJP6Ux6xphPMPkjtwMK9SOfIYxB
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
+        bucket: gulimall-zhuyunsheng
   application:
     name: mall-third-party
 
