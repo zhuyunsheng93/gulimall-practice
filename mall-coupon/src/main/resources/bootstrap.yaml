@@ -9,4 +9,9 @@ spring:
         namespace: 030a6aa1-a299-40a3-9e2f-e1a8602f0519
         group: dev1
         extension-configs:
-          -data-id
+          - data-id: data.yml
+            group: dev
+            refresh: true
+          - data-id: mybatis.yml
+            group: dev
+            refresh: true

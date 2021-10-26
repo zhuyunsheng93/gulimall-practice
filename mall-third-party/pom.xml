@@ -23,6 +23,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--阿里云的oss服务，只在本服务内进行使用-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alicloud-oss</artifactId>

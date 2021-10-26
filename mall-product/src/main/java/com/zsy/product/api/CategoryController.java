@@ -34,6 +34,15 @@ public class CategoryController {
     }
 
     /**
+     *
+     */
+    @RequestMapping("zhuyunsheng/list/tree")
+    public R listCategoryTree() {
+        List<CategoryEntity> entities = categoryService.listCategoryWithTree();
+        return R.ok().put("data", entities);
+    }
+
+    /**
      * 信息
      */
     @RequestMapping("/info/{catId}")

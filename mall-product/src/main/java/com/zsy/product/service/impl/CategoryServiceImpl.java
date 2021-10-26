@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zsy.common.utils.PageUtils;
 import com.zsy.common.utils.Query;
@@ -12,6 +14,7 @@ import com.zsy.product.entity.CategoryEntity;
 import com.zsy.product.service.CategoryBrandRelationService;
 import com.zsy.product.service.CategoryService;
 import com.zsy.product.vo.Catalogs2Vo;
+import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RLock;
 import org.redisson.api.RReadWriteLock;
 import org.redisson.api.RedissonClient;
@@ -32,6 +35,7 @@ import java.util.stream.Collectors;
  * @author zhuyunsheng
  */
 @Service("categoryService")
+@Slf4j
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity> implements CategoryService {
 
     @Autowired
@@ -72,7 +76,12 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     @Override
     public void removeMenuByIds(List<Long> asList) {
         // TODO  1、检查当前删除的菜单，是否被别的地方引用
-
+        List<CategoryEntity> categoryEntityList = this.baseMapper.selectList(Wrappers.<CategoryEntity>lambdaQuery()
+                .in(CategoryEntity::getParentCid, asList));
+        if (CollectionUtils.isNotEmpty(categoryEntityList)) {
+            log.warn("该菜单为父级菜单");
+            return;
+        }
         // 逻辑删除
         baseMapper.deleteBatchIds(asList);
     }
@@ -128,15 +137,15 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
      * 1、每一个需要缓存的数据我们都来指定要放到那个名字的缓存。【缓存的分区(按照业务类型分)】
      * 2、@Cacheable 代表当前方法的结果需要缓存，如果缓存中有，方法都不用调用，如果缓存中没有，会调用方法。最后将方法的结果放入缓存
      * 3、默认行为
-     *   3.1 如果缓存中有，方法不再调用
-     *   3.2 key是默认生成的:缓存的名字::SimpleKey::[](自动生成key值)
-     *   3.3 缓存的value值，默认使用jdk序列化机制，将序列化的数据存到redis中
-     *   3.4 默认时间是 -1：
-     *
-     *   自定义操作：key的生成
-     *    1. 指定生成缓存的key：key属性指定，接收一个 SpEl
-     *    2. 指定缓存的数据的存活时间:配置文档中修改存活时间 ttl
-     *    3. 将数据保存为json格式: 自定义配置类 MyCacheManager
+     * 3.1 如果缓存中有，方法不再调用
+     * 3.2 key是默认生成的:缓存的名字::SimpleKey::[](自动生成key值)
+     * 3.3 缓存的value值，默认使用jdk序列化机制，将序列化的数据存到redis中
+     * 3.4 默认时间是 -1：
+     * <p>
+     * 自定义操作：key的生成
+     * 1. 指定生成缓存的key：key属性指定，接收一个 SpEl
+     * 2. 指定缓存的数据的存活时间:配置文档中修改存活时间 ttl
+     * 3. 将数据保存为json格式: 自定义配置类 MyCacheManager
      * <p>
      * 4、Spring-Cache的不足之处：
      * 1）、读模式
@@ -252,6 +261,19 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         }
         return JSON.parseObject(catalogJSON, new TypeReference<Map<String, List<Catalogs2Vo>>>() {
         });
+    }
+
+    /**
+     * 目录树形结构展示
+     *
+     * @return
+     */
+    @Override
+    public List<CategoryEntity> listCategoryWithTree() {
+        List<CategoryEntity> categoryEntities = this.getBaseMapper()
+                .selectList(Wrappers.lambdaQuery());
+        categoryEntities.stream().filter(e -> e.getParentCid() == 0).collect(Collectors.toList());
+        return categoryEntities;
     }
 
     /**

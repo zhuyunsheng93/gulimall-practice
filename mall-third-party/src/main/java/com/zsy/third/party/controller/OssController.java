@@ -5,6 +5,7 @@ import com.aliyun.oss.common.utils.BinaryUtil;
 import com.aliyun.oss.model.MatchMode;
 import com.aliyun.oss.model.PolicyConditions;
 import com.zsy.common.utils.R;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,7 @@ import java.util.Map;
  * @date: 2021/3/7 19:29
  */
 @RestController
+@Slf4j
 public class OssController {
 
     @Autowired
@@ -35,6 +37,7 @@ public class OssController {
 
     /**
      * Oss 获取服务端签名
+     *
      * @return
      */
     @RequestMapping("/oss/policy")
@@ -42,6 +45,7 @@ public class OssController {
 
         // https://gulimall-hello.oss-cn-beijing.aliyuncs.com/hahaha.jpg  host的格式为 bucketname.endpoint
         String host = "https://" + bucket + "." + endpoint;
+        log.info("调用储存地址为：" + host);
         // callbackUrl为 上传回调服务器的URL，请将下面的IP和Port配置为您自己的真实信息。
         // String callbackUrl = "http://88.88.88.88:8888";
         String format = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
@@ -75,7 +79,7 @@ public class OssController {
             // Assert.fail(e.getMessage());
             System.out.println(e.getMessage());
         }
-
+        log.info(respMap + "");
         return R.ok().put("data", respMap);
     }
 }

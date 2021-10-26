@@ -6,4 +6,4 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yaml
-        namespace: 07abe11f-3ead-4ae4-add6-71e8f129bfb9
+        namespace: 030a6aa1-a299-40a3-9e2f-e1a8602f0519
