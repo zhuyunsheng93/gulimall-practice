@@ -1,4 +1,4 @@
-package com.zsy.product.api;
+package com.zsy.product.controller;
 
 import com.zsy.common.utils.PageUtils;
 import com.zsy.common.utils.R;

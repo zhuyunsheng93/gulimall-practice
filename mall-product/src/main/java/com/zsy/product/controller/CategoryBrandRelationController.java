@@ -1,4 +1,4 @@
-package com.zsy.product.api;
+package com.zsy.product.controller;
 
 import java.util.Arrays;
 import java.util.List;

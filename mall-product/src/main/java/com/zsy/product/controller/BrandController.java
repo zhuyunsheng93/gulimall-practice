@@ -1,4 +1,4 @@
-package com.zsy.product.api;
+package com.zsy.product.controller;
 
 import com.zsy.common.utils.PageUtils;
 import com.zsy.common.utils.R;
@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.Map;
 
@@ -52,10 +53,12 @@ public class BrandController {
 
     /**
      * 保存
+     *
+     * @Valid 和 @Validated 哪个在前面 哪个起作用
      */
     @RequestMapping("/save")
     //@RequiresPermissions("product:brand:save")
-    public R save(@Validated({AddGroup.class}) @RequestBody BrandEntity brand/*,BindingResult result*/) {
+    public R save(@Valid @Validated({AddGroup.class}) @RequestBody BrandEntity brand/*,BindingResult result*/) {
 //        if(result.hasErrors()){
 //            Map<String,String> map = new HashMap<>();
 //            //1、获取校验的错误结果
